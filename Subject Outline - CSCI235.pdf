@@ -1,0 +1,1708 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+14 0 R
+16 0 R
+21 0 R
+23 0 R
+30 0 R
+32 0 R
+34 0 R
+]
+/Count 8
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+/F3 18 0 R
+/F4 25 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Creator (DOMPDF)
+/CreationDate (D:20160209115330+11'00')
+/ModDate (D:20160209115330+11'00')
+/Title (CSCI235)
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 10 0 R 12 0 R ]
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 12132 >>
+stream
+
+0.000 0.000 0.000 rg
+34.016 781.618 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Consultation Times: )] TJ ET
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 757.618 m 561.264 757.618 l 559.764 756.118 l 35.516 756.118 l  f
+0.172 0.172 0.172 rg
+0.172 0.172 0.172 RG
+34.016 672.530 m 561.264 672.530 l 559.764 674.030 l 35.516 674.030 l  f
+561.264 757.618 m 561.264 672.530 l 559.764 674.030 l 559.764 756.118 l  f
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 757.618 m 34.016 672.530 l 35.516 674.030 l 35.516 756.118 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 754.618 m 301.478 754.618 l 300.478 753.618 l 38.016 753.618 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 733.298 m 301.478 733.298 l 300.478 734.298 l 38.016 734.298 l  f
+301.478 754.618 m 301.478 733.298 l 300.478 734.298 l 300.478 753.618 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 754.618 m 37.016 733.298 l 38.016 734.298 l 38.016 753.618 l  f
+BT 38.766 738.612 Td /F2 12.0 Tf  [(Subject Coordinator)] TJ ET
+302.978 754.618 m 558.264 754.618 l 557.264 753.618 l 303.978 753.618 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+302.978 733.298 m 558.264 733.298 l 557.264 734.298 l 303.978 734.298 l  f
+558.264 754.618 m 558.264 733.298 l 557.264 734.298 l 557.264 753.618 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+302.978 754.618 m 302.978 733.298 l 303.978 734.298 l 303.978 753.618 l  f
+BT 304.728 739.984 Td /F1 12.0 Tf  [(Dr Tianbing Xia)] TJ ET
+37.016 731.798 m 301.478 731.798 l 300.478 730.798 l 38.016 730.798 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 714.042 m 301.478 714.042 l 300.478 715.042 l 38.016 715.042 l  f
+301.478 731.798 m 301.478 714.042 l 300.478 715.042 l 300.478 730.798 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 731.798 m 37.016 714.042 l 38.016 715.042 l 38.016 730.798 l  f
+BT 38.766 718.946 Td /F1 12.0 Tf  [(Telephone Number:)] TJ ET
+302.978 731.798 m 558.264 731.798 l 557.264 730.798 l 303.978 730.798 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+302.978 714.042 m 558.264 714.042 l 557.264 715.042 l 303.978 715.042 l  f
+558.264 731.798 m 558.264 714.042 l 557.264 715.042 l 557.264 730.798 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+302.978 731.798 m 302.978 714.042 l 303.978 715.042 l 303.978 730.798 l  f
+BT 304.728 718.946 Td /F1 12.0 Tf  [( 0242 21 3076)] TJ ET
+37.016 712.542 m 301.478 712.542 l 300.478 711.542 l 38.016 711.542 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 694.786 m 301.478 694.786 l 300.478 695.786 l 38.016 695.786 l  f
+301.478 712.542 m 301.478 694.786 l 300.478 695.786 l 300.478 711.542 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 712.542 m 37.016 694.786 l 38.016 695.786 l 38.016 711.542 l  f
+BT 38.766 699.690 Td /F1 12.0 Tf  [(Email:)] TJ ET
+302.978 712.542 m 558.264 712.542 l 557.264 711.542 l 303.978 711.542 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+302.978 694.786 m 558.264 694.786 l 557.264 695.786 l 303.978 695.786 l  f
+558.264 712.542 m 558.264 694.786 l 557.264 695.786 l 557.264 711.542 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+302.978 712.542 m 302.978 694.786 l 303.978 695.786 l 303.978 711.542 l  f
+BT 304.728 699.690 Td /F1 12.0 Tf  [( txia@uow.edu.au)] TJ ET
+37.016 693.286 m 301.478 693.286 l 300.478 692.286 l 38.016 692.286 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 675.530 m 301.478 675.530 l 300.478 676.530 l 38.016 676.530 l  f
+301.478 693.286 m 301.478 675.530 l 300.478 676.530 l 300.478 692.286 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 693.286 m 37.016 675.530 l 38.016 676.530 l 38.016 692.286 l  f
+BT 38.766 680.434 Td /F1 12.0 Tf  [(Location:)] TJ ET
+302.978 693.286 m 558.264 693.286 l 557.264 692.286 l 303.978 692.286 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+302.978 675.530 m 558.264 675.530 l 557.264 676.530 l 303.978 676.530 l  f
+558.264 693.286 m 558.264 675.530 l 557.264 676.530 l 557.264 692.286 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+302.978 693.286 m 302.978 675.530 l 303.978 676.530 l 303.978 692.286 l  f
+BT 304.728 680.434 Td /F1 12.0 Tf  [(3.205)] TJ ET
+BT 34.016 646.274 Td /F1 12.0 Tf  [(Dr. Xia's consultation times during session:)] TJ ET
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 630.710 m 561.264 630.710 l 559.764 629.210 l 35.516 629.210 l  f
+0.172 0.172 0.172 rg
+0.172 0.172 0.172 RG
+34.016 561.314 m 561.264 561.314 l 559.764 562.814 l 35.516 562.814 l  f
+561.264 630.710 m 561.264 561.314 l 559.764 562.814 l 559.764 629.210 l  f
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 630.710 m 34.016 561.314 l 35.516 562.814 l 35.516 629.210 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 627.710 m 293.304 627.710 l 292.304 626.710 l 38.016 626.710 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 609.954 m 293.304 609.954 l 292.304 610.954 l 38.016 610.954 l  f
+293.304 627.710 m 293.304 609.954 l 292.304 610.954 l 292.304 626.710 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 627.710 m 37.016 609.954 l 38.016 610.954 l 38.016 626.710 l  f
+BT 38.766 614.858 Td /F1 12.0 Tf  [(Day)] TJ ET
+294.804 627.710 m 558.264 627.710 l 557.264 626.710 l 295.804 626.710 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+294.804 609.954 m 558.264 609.954 l 557.264 610.954 l 295.804 610.954 l  f
+558.264 627.710 m 558.264 609.954 l 557.264 610.954 l 557.264 626.710 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+294.804 627.710 m 294.804 609.954 l 295.804 610.954 l 295.804 626.710 l  f
+BT 296.554 614.858 Td /F1 12.0 Tf  [(Time)] TJ ET
+37.016 608.454 m 293.304 608.454 l 292.304 607.454 l 38.016 607.454 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 587.134 m 293.304 587.134 l 292.304 588.134 l 38.016 588.134 l  f
+293.304 608.454 m 293.304 587.134 l 292.304 588.134 l 292.304 607.454 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 608.454 m 37.016 587.134 l 38.016 588.134 l 38.016 607.454 l  f
+BT 38.766 593.820 Td /F1 12.0 Tf  [( Monday)] TJ ET
+294.804 608.454 m 558.264 608.454 l 557.264 607.454 l 295.804 607.454 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+294.804 587.134 m 558.264 587.134 l 557.264 588.134 l 295.804 588.134 l  f
+558.264 608.454 m 558.264 587.134 l 557.264 588.134 l 557.264 607.454 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+294.804 608.454 m 294.804 587.134 l 295.804 588.134 l 295.804 607.454 l  f
+BT 296.554 592.448 Td /F1 12.0 Tf  [( 9:30-11:30)] TJ ET
+37.016 585.634 m 293.304 585.634 l 292.304 584.634 l 38.016 584.634 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+37.016 564.314 m 293.304 564.314 l 292.304 565.314 l 38.016 565.314 l  f
+293.304 585.634 m 293.304 564.314 l 292.304 565.314 l 292.304 584.634 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+37.016 585.634 m 37.016 564.314 l 38.016 565.314 l 38.016 584.634 l  f
+BT 38.766 571.000 Td /F1 12.0 Tf  [( Thursday)] TJ ET
+294.804 585.634 m 558.264 585.634 l 557.264 584.634 l 295.804 584.634 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+294.804 564.314 m 558.264 564.314 l 557.264 565.314 l 295.804 565.314 l  f
+558.264 585.634 m 558.264 564.314 l 557.264 565.314 l 557.264 584.634 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+294.804 585.634 m 294.804 564.314 l 295.804 565.314 l 295.804 584.634 l  f
+BT 296.554 569.628 Td /F1 12.0 Tf  [( 9:30-11:30)] TJ ET
+BT 34.016 535.058 Td /F1 12.0 Tf  [( )] TJ ET
+BT 34.016 517.238 Td /F1 12.0 Tf  [( )] TJ ET
+BT 34.016 499.418 Td /F1 12.0 Tf  [( )] TJ ET
+BT 34.016 481.598 Td /F1 12.0 Tf  [( )] TJ ET
+34.016 451.778 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 454.629 Td /F2 12.0 Tf  [(Subject Organisation: )] TJ ET
+1 w 0 J [  ] 0 d
+34.266 427.028 m 182.109 427.028 l S
+1 w 0 J [  ] 0 d
+34.766 427.528 m 34.766 409.772 l S
+0.000 0.000 0.000 rg
+BT 36.016 414.676 Td /F1 12.0 Tf  [(Session:)] TJ ET
+1 w 0 J [  ] 0 d
+181.109 427.028 m 561.014 427.028 l S
+1 w 0 J [  ] 0 d
+181.609 427.528 m 181.609 409.772 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+560.514 427.528 m 560.514 409.772 l S
+BT 182.859 414.676 Td /F1 12.0 Tf  [(Autumn Session 2016)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.266 410.272 m 182.109 410.272 l S
+1 w 0 J [  ] 0 d
+34.766 410.772 m 34.766 393.016 l S
+BT 36.016 397.920 Td /F1 12.0 Tf  [(Credit Points)] TJ ET
+1 w 0 J [  ] 0 d
+181.109 410.272 m 561.014 410.272 l S
+1 w 0 J [  ] 0 d
+181.609 410.772 m 181.609 393.016 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+560.514 410.772 m 560.514 393.016 l S
+BT 182.859 397.920 Td /F1 12.0 Tf  [( 6)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.266 393.516 m 182.109 393.516 l S
+1 w 0 J [  ] 0 d
+34.766 394.016 m 34.766 376.260 l S
+BT 36.016 381.164 Td /F1 12.0 Tf  [(Contact hours per week:)] TJ ET
+1 w 0 J [  ] 0 d
+181.109 393.516 m 561.014 393.516 l S
+1 w 0 J [  ] 0 d
+181.609 394.016 m 181.609 376.260 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+560.514 394.016 m 560.514 376.260 l S
+BT 182.859 381.164 Td /F1 12.0 Tf  [( 3 hours Lecture, 2 hours Comp Lab)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.266 376.760 m 182.109 376.760 l S
+1 w 0 J [  ] 0 d
+34.766 377.260 m 34.766 355.940 l S
+BT 36.016 362.626 Td /F1 12.0 Tf  [(Lecture Times & Location:)] TJ ET
+1 w 0 J [  ] 0 d
+181.109 376.760 m 561.014 376.760 l S
+1 w 0 J [  ] 0 d
+181.609 377.260 m 181.609 355.940 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+560.514 377.260 m 560.514 355.940 l S
+BT 186.459 361.254 Td /F1 12.0 Tf  [(http://www.uow.edu.au/student/timetables/index.html)] TJ ET
+0.6 w 0 J [  ] 0 d
+186.459 358.554 m 445.131 358.554 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.266 356.440 m 182.109 356.440 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+34.266 325.428 m 182.109 325.428 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 356.940 m 34.766 324.928 l S
+BT 36.016 344.088 Td /F1 12.0 Tf  [(Tutorial Day, Time and )] TJ ET
+BT 36.016 329.832 Td /F1 12.0 Tf  [(Location can be found at:)] TJ ET
+1 w 0 J [  ] 0 d
+181.109 356.440 m 561.014 356.440 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+181.109 325.428 m 561.014 325.428 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+181.609 356.940 m 181.609 324.928 l S
+0.160 0.160 0.160 RG
+1 w 0 J [  ] 0 d
+560.514 356.940 m 560.514 324.928 l S
+BT 182.859 336.960 Td /F1 12.0 Tf  [(http://www.uow.edu.au/student/timetables/index.html)] TJ ET
+BT 34.016 298.422 Td /F1 12.0 Tf  [(Students should check the subject's web site regularly as important information, including details of )] TJ ET
+BT 34.016 280.602 Td /F1 12.0 Tf  [(unavoidable changes in assessment requirements will be posted from time to time via Moodle )] TJ ET
+BT 37.616 262.782 Td /F1 12.0 Tf  [(http://www.uow.edu.au/student/)] TJ ET
+0.6 w 0 J [  ] 0 d
+37.616 260.082 m 191.948 260.082 l S
+BT 198.548 262.782 Td /F1 12.0 Tf  [(. Any information posted to the web site is deemed to have been notified )] TJ ET
+BT 34.016 244.962 Td /F1 12.0 Tf  [(to all students.)] TJ ET
+34.016 215.142 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 217.993 Td /F2 12.0 Tf  [(Subject Description: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 188.886 Td /F1 12.0 Tf  [(This subject investigates the major areas of modern database systems: 1. Design and programming of )] TJ ET
+BT 34.016 171.066 Td /F1 12.0 Tf  [(relational databases 2. Design and programming of semistructured databases \(XML native database systems\) )] TJ ET
+BT 34.016 153.246 Td /F1 12.0 Tf  [(3. Design and programming of distributed database systems \(NoSQL database systems\) 4. Concurrency )] TJ ET
+BT 34.016 135.426 Td /F1 12.0 Tf  [(control and data recovery in database systems. The following topics are included: Introduction to conceptual )] TJ ET
+BT 34.016 117.606 Td /F1 12.0 Tf  [(modelling; Principles of relational database model; Processing relational databases with Structured Query )] TJ ET
+BT 34.016 99.786 Td /F1 12.0 Tf  [(Language \(SQL\) and its procedural extension \(PL/SQL\); Principles of semistructured database model; )] TJ ET
+BT 34.016 81.966 Td /F1 12.0 Tf  [(Processing of semistructured databases with XQuery and XPath; Design and implementation of distributed )] TJ ET
+BT 34.016 64.146 Td /F1 12.0 Tf  [(database systems; normalisation of relational databases; Transaction management and recovery in database )] TJ ET
+BT 34.016 46.326 Td /F1 12.0 Tf  [(systems.)] TJ ET
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 11 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 182.8594 360.1743 448.7314 372.0543 ]
+>>
+endobj
+11 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://www.uow.edu.au/student/timetables/index.html)
+>>
+endobj
+12 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 13 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 261.7023 195.5477 273.5823 ]
+>>
+endobj
+13 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://www.uow.edu.au/student/)
+>>
+endobj
+14 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 15 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 1338 >>
+stream
+
+0.000 0.000 0.000 rg
+0.160 0.160 0.160 RG
+0.6 w 0 J [  ] 0 d
+34.016 781.618 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Subject Learning Outcomes: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 755.218 Td /F1 12.0 Tf  [(On successful completion of this subject, students will be able to:)] TJ ET
+BT 34.016 737.218 Td /F1 12.0 Tf  [(1. Explain the principles of relational database model.)] TJ ET
+BT 34.016 719.218 Td /F1 12.0 Tf  [(2. Design and implement a simple relational database.)] TJ ET
+BT 34.016 701.218 Td /F1 12.0 Tf  [(3. Use relational database programming language SQL and its procedural extension PL/SQL.)] TJ ET
+BT 34.016 683.218 Td /F1 12.0 Tf  [(4. Design and implement a simple semistructured database.)] TJ ET
+BT 34.016 665.218 Td /F1 12.0 Tf  [(5. Use semistructured database programming languages XQuery and XPath.)] TJ ET
+BT 34.016 647.218 Td /F1 12.0 Tf  [(6. Normalise a relational database.)] TJ ET
+BT 34.016 629.218 Td /F1 12.0 Tf  [(7. Explain the principles of distributed databases.)] TJ ET
+BT 34.016 611.218 Td /F1 12.0 Tf  [(8. Design a distributed database.)] TJ ET
+BT 34.016 593.218 Td /F1 12.0 Tf  [(9. Implemented distributed NoSQL database system.)] TJ ET
+BT 34.016 575.362 Td /F1 12.0 Tf  [(10. Explain the principles of transaction management and database recovery.)] TJ ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 19 0 R ]
+/Contents 17 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 10740 >>
+stream
+
+0.000 0.000 0.000 rg
+0.160 0.160 0.160 RG
+0.6 w 0 J [  ] 0 d
+34.016 781.618 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Graduate Qualities: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 755.362 Td /F1 12.0 Tf  [("Graduate Qualities" are the aspirational qualities that students will progressively develop through their )] TJ ET
+BT 34.016 737.542 Td /F1 12.0 Tf  [(learning experiences at UOW.  These Graduate Qualities are not achieved in a single subject - their )] TJ ET
+BT 34.016 719.722 Td /F1 12.0 Tf  [(development is an ongoing process across an entire program of study. This subject will contribute to the )] TJ ET
+BT 34.016 701.902 Td /F1 12.0 Tf  [(following Graduate Qualities:)] TJ ET
+BT 34.016 683.938 Td /F1 12.0 Tf  [(Informed)] TJ ET
+BT 34.016 665.938 Td /F1 12.0 Tf  [(Independent learners)] TJ ET
+BT 34.016 647.938 Td /F1 12.0 Tf  [(Problem solvers)] TJ ET
+BT 34.016 629.938 Td /F1 12.0 Tf  [(Innovation design)] TJ ET
+BT 34.016 594.082 Td /F1 12.0 Tf  [(Further information can be found at:)] TJ ET
+BT 37.616 575.866 Td /F3 12.0 Tf  [(http://eis.uow.edu.au/future-students/graduate-qualities/index.html)] TJ ET
+0.6 w 0 J [  ] 0 d
+37.616 573.466 m 388.460 573.466 l S
+34.016 545.947 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 548.798 Td /F2 12.0 Tf  [(Graduate Qualities Explained: )] TJ ET
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 521.947 m 561.264 521.947 l 560.514 521.197 l 34.766 521.197 l  f
+0.172 0.172 0.172 rg
+0.172 0.172 0.172 RG
+34.016 415.167 m 561.264 415.167 l 560.514 415.917 l 34.766 415.917 l  f
+561.264 521.947 m 561.264 415.167 l 560.514 415.917 l 560.514 521.197 l  f
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 521.947 m 34.016 415.167 l 34.766 415.917 l 34.766 521.197 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 519.697 m 178.604 519.697 l 177.604 518.697 l 37.266 518.697 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 500.441 m 178.604 500.441 l 177.604 501.441 l 37.266 501.441 l  f
+178.604 519.697 m 178.604 500.441 l 177.604 501.441 l 177.604 518.697 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 519.697 m 36.266 500.441 l 37.266 501.441 l 37.266 518.697 l  f
+BT 38.766 506.095 Td /F1 12.0 Tf  [(Graduate Qualities)] TJ ET
+180.104 519.697 m 344.672 519.697 l 343.672 518.697 l 181.104 518.697 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+180.104 500.441 m 344.672 500.441 l 343.672 501.441 l 181.104 501.441 l  f
+344.672 519.697 m 344.672 500.441 l 343.672 501.441 l 343.672 518.697 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+180.104 519.697 m 180.104 500.441 l 181.104 501.441 l 181.104 518.697 l  f
+BT 182.604 506.095 Td /F1 12.0 Tf  [(Covered in)] TJ ET
+346.172 519.697 m 559.014 519.697 l 558.014 518.697 l 347.172 518.697 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+346.172 500.441 m 559.014 500.441 l 558.014 501.441 l 347.172 501.441 l  f
+559.014 519.697 m 559.014 500.441 l 558.014 501.441 l 558.014 518.697 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+346.172 519.697 m 346.172 500.441 l 347.172 501.441 l 347.172 518.697 l  f
+BT 348.672 506.095 Td /F1 12.0 Tf  [(Assessed in)] TJ ET
+36.266 498.941 m 178.604 498.941 l 177.604 497.941 l 37.266 497.941 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 479.685 m 178.604 479.685 l 177.604 480.685 l 37.266 480.685 l  f
+178.604 498.941 m 178.604 479.685 l 177.604 480.685 l 177.604 497.941 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 498.941 m 36.266 479.685 l 37.266 480.685 l 37.266 497.941 l  f
+BT 38.766 485.339 Td /F1 12.0 Tf  [(Innovation and design)] TJ ET
+180.104 498.941 m 344.672 498.941 l 343.672 497.941 l 181.104 497.941 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+180.104 479.685 m 344.672 479.685 l 343.672 480.685 l 181.104 480.685 l  f
+344.672 498.941 m 344.672 479.685 l 343.672 480.685 l 343.672 497.941 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+180.104 498.941 m 180.104 479.685 l 181.104 480.685 l 181.104 497.941 l  f
+BT 182.604 485.339 Td /F1 12.0 Tf  [( Lectures, Lab exercises)] TJ ET
+346.172 498.941 m 559.014 498.941 l 558.014 497.941 l 347.172 497.941 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+346.172 479.685 m 559.014 479.685 l 558.014 480.685 l 347.172 480.685 l  f
+559.014 498.941 m 559.014 479.685 l 558.014 480.685 l 558.014 497.941 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+346.172 498.941 m 346.172 479.685 l 347.172 480.685 l 347.172 497.941 l  f
+BT 348.672 485.339 Td /F1 12.0 Tf  [( Assignments, Lab exercises, Final exam)] TJ ET
+36.266 478.185 m 178.604 478.185 l 177.604 477.185 l 37.266 477.185 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 458.929 m 178.604 458.929 l 177.604 459.929 l 37.266 459.929 l  f
+178.604 478.185 m 178.604 458.929 l 177.604 459.929 l 177.604 477.185 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 478.185 m 36.266 458.929 l 37.266 459.929 l 37.266 477.185 l  f
+BT 38.766 464.583 Td /F1 12.0 Tf  [(Informed)] TJ ET
+180.104 478.185 m 344.672 478.185 l 343.672 477.185 l 181.104 477.185 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+180.104 458.929 m 344.672 458.929 l 343.672 459.929 l 181.104 459.929 l  f
+344.672 478.185 m 344.672 458.929 l 343.672 459.929 l 343.672 477.185 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+180.104 478.185 m 180.104 458.929 l 181.104 459.929 l 181.104 477.185 l  f
+BT 182.604 464.583 Td /F1 12.0 Tf  [( Lectures, Lab exercises)] TJ ET
+346.172 478.185 m 559.014 478.185 l 558.014 477.185 l 347.172 477.185 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+346.172 458.929 m 559.014 458.929 l 558.014 459.929 l 347.172 459.929 l  f
+559.014 478.185 m 559.014 458.929 l 558.014 459.929 l 558.014 477.185 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+346.172 478.185 m 346.172 458.929 l 347.172 459.929 l 347.172 477.185 l  f
+BT 348.672 464.583 Td /F1 12.0 Tf  [( Assignments, )] TJ ET
+BT 419.676 464.280 Td /F1 12.0 Tf  [(Lab exercises, )] TJ ET
+BT 491.316 464.583 Td /F1 12.0 Tf  [(Final exam)] TJ ET
+36.266 457.429 m 178.604 457.429 l 177.604 456.429 l 37.266 456.429 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 438.173 m 178.604 438.173 l 177.604 439.173 l 37.266 439.173 l  f
+178.604 457.429 m 178.604 438.173 l 177.604 439.173 l 177.604 456.429 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 457.429 m 36.266 438.173 l 37.266 439.173 l 37.266 456.429 l  f
+BT 38.766 443.827 Td /F1 12.0 Tf  [(Independent Learners)] TJ ET
+180.104 457.429 m 344.672 457.429 l 343.672 456.429 l 181.104 456.429 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+180.104 438.173 m 344.672 438.173 l 343.672 439.173 l 181.104 439.173 l  f
+344.672 457.429 m 344.672 438.173 l 343.672 439.173 l 343.672 456.429 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+180.104 457.429 m 180.104 438.173 l 181.104 439.173 l 181.104 456.429 l  f
+BT 182.604 443.827 Td /F1 12.0 Tf  [( Lab exercises)] TJ ET
+346.172 457.429 m 559.014 457.429 l 558.014 456.429 l 347.172 456.429 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+346.172 438.173 m 559.014 438.173 l 558.014 439.173 l 347.172 439.173 l  f
+559.014 457.429 m 559.014 438.173 l 558.014 439.173 l 558.014 456.429 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+346.172 457.429 m 346.172 438.173 l 347.172 439.173 l 347.172 456.429 l  f
+BT 348.672 443.827 Td /F1 12.0 Tf  [( Assignments, )] TJ ET
+BT 419.676 443.524 Td /F1 12.0 Tf  [(Lab exercises, )] TJ ET
+BT 491.316 443.827 Td /F1 12.0 Tf  [(Final exam)] TJ ET
+36.266 436.673 m 178.604 436.673 l 177.604 435.673 l 37.266 435.673 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 417.417 m 178.604 417.417 l 177.604 418.417 l 37.266 418.417 l  f
+178.604 436.673 m 178.604 417.417 l 177.604 418.417 l 177.604 435.673 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 436.673 m 36.266 417.417 l 37.266 418.417 l 37.266 435.673 l  f
+BT 38.766 423.071 Td /F1 12.0 Tf  [(Problem Solvers)] TJ ET
+180.104 436.673 m 344.672 436.673 l 343.672 435.673 l 181.104 435.673 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+180.104 417.417 m 344.672 417.417 l 343.672 418.417 l 181.104 418.417 l  f
+344.672 436.673 m 344.672 417.417 l 343.672 418.417 l 343.672 435.673 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+180.104 436.673 m 180.104 417.417 l 181.104 418.417 l 181.104 435.673 l  f
+BT 182.604 423.071 Td /F1 12.0 Tf  [( Lab exercises, Assessments)] TJ ET
+346.172 436.673 m 559.014 436.673 l 558.014 435.673 l 347.172 435.673 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+346.172 417.417 m 559.014 417.417 l 558.014 418.417 l 347.172 418.417 l  f
+559.014 436.673 m 559.014 417.417 l 558.014 418.417 l 558.014 435.673 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+346.172 436.673 m 346.172 417.417 l 347.172 418.417 l 347.172 435.673 l  f
+BT 348.672 423.071 Td /F1 12.0 Tf  [( Assignments, )] TJ ET
+BT 419.676 422.768 Td /F1 12.0 Tf  [(Lab exercises, )] TJ ET
+BT 491.316 423.071 Td /F1 12.0 Tf  [(Final exam)] TJ ET
+34.016 376.911 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 379.762 Td /F2 12.0 Tf  [(Recent Improvements: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 350.655 Td /F1 12.0 Tf  [(SCIT is committed to ongoing improvements and is constantly monitoring feed back from students and staff.)] TJ ET
+34.016 320.835 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 323.686 Td /F2 12.0 Tf  [(Attendance Requirements: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 294.579 Td /F1 12.0 Tf  [(It is the responsibility of students to attend all lectures/tutorials/labs/seminars/ practical work for subjects for )] TJ ET
+BT 34.016 276.759 Td /F1 12.0 Tf  [(which you are enrolled. It should be noted that the amount of time spent on each 6 credit point subject )] TJ ET
+BT 34.016 258.939 Td /F1 12.0 Tf  [(should be at least 12 hours per week, which includes lectures/tutorials/labs etc.)] TJ ET
+BT 34.016 241.119 Td /F1 12.0 Tf  [(Satisfactory attendance is deemed by the University, to be attendance at approximately 80% of the allocated )] TJ ET
+BT 34.016 223.299 Td /F1 12.0 Tf  [(contact hours.)] TJ ET
+34.016 193.479 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 196.330 Td /F2 12.0 Tf  [(Optional Attendence Statement: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 167.223 Td /F1 12.0 Tf  [(Attendance rolls may be kept for lectures and laboratories. If you are present for less than 80% and would )] TJ ET
+BT 34.016 149.403 Td /F1 12.0 Tf  [(have otherwise passed you need to apply for student academic consideration, otherwise a TF \(technical fail\) )] TJ ET
+BT 34.016 131.583 Td /F1 12.0 Tf  [(grade may be recorded.)] TJ ET
+34.016 101.763 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 104.614 Td /F2 12.0 Tf  [(Method of Presentation: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 75.507 Td /F1 12.0 Tf  [(In order to maximize learning outcomes, it is strongly recommended that students attend all lectures.)] TJ ET
+endstream
+endobj
+18 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 20 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 574.7563 392.0597 586.9663 ]
+>>
+endobj
+20 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://eis.uow.edu.au/future-students/graduate-qualities/index.html)
+>>
+endobj
+21 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 12084 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+34.016 781.618 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Lecture Schedule: )] TJ ET
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+34.766 756.118 m 78.005 756.118 l S
+1.5 w 0 J [  ] 0 d
+35.516 756.868 m 35.516 737.362 l S
+0.000 0.000 0.000 rg
+BT 41.846 742.713 Td /F2 12.0 Tf  [(Week)] TJ ET
+1.5 w 0 J [  ] 0 d
+77.005 756.118 m 338.745 756.118 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.505 756.868 m 77.505 737.362 l S
+BT 193.205 742.713 Td /F2 12.0 Tf  [(Topic)] TJ ET
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+337.745 756.118 m 560.514 756.118 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+338.245 756.868 m 338.245 737.362 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 756.868 m 559.764 737.362 l S
+BT 427.668 742.713 Td /F2 12.0 Tf  [(Reading)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 737.862 m 78.005 737.862 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 738.362 m 35.516 669.210 l S
+BT 53.510 699.812 Td /F1 12.0 Tf  [(1)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 737.862 m 338.745 737.862 l S
+1 w 0 J [  ] 0 d
+77.505 738.362 m 77.505 669.210 l S
+BT 79.505 724.760 Td /F1 12.0 Tf  [( )] TJ ET
+BT 79.505 707.350 Td /F2 12.0 Tf  [(Course information: )] TJ ET
+BT 187.493 707.350 Td /F1 12.0 Tf  [(Database Management )] TJ ET
+BT 79.505 689.530 Td /F1 12.0 Tf  [(Systems \(DBMS\) what is it and why do we need it?)] TJ ET
+BT 79.505 674.561 Td /F2 12.0 Tf  [(Database design:)] TJ ET
+BT 166.505 674.864 Td /F1 12.0 Tf  [( conceptual modeling.)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 737.862 m 560.514 737.862 l S
+1 w 0 J [  ] 0 d
+338.245 738.362 m 338.245 669.210 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 738.362 m 559.764 669.210 l S
+BT 340.245 708.722 Td /F1 12.0 Tf  [( )] TJ ET
+BT 340.245 691.312 Td /F1 12.0 Tf  [(Database textbook chapters: 1, 2, 7)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 669.710 m 78.005 669.710 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 670.210 m 35.516 618.878 l S
+BT 53.510 640.570 Td /F1 12.0 Tf  [(2)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 669.710 m 338.745 669.710 l S
+1 w 0 J [  ] 0 d
+77.505 670.210 m 77.505 618.878 l S
+BT 79.505 647.395 Td /F2 12.0 Tf  [(Database design:)] TJ ET
+BT 166.505 647.698 Td /F1 12.0 Tf  [( conceptual modeling \(cont.\) )] TJ ET
+BT 79.505 633.442 Td /F1 12.0 Tf  [(relational database model, logical modeling.)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 669.710 m 560.514 669.710 l S
+1 w 0 J [  ] 0 d
+338.245 670.210 m 338.245 618.878 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 670.210 m 559.764 618.878 l S
+BT 340.245 653.454 Td /F1 12.0 Tf  [(Database textbook, chapters: 3, 7, 8, 9, 10)] TJ ET
+BT 340.245 638.788 Td /F1 12.0 Tf  [(Laboratory 1: Conceptual modeling with )] TJ ET
+BT 340.245 624.532 Td /F1 12.0 Tf  [(Rational Rose)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 619.378 m 78.005 619.378 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 619.878 m 35.516 568.546 l S
+BT 53.510 590.238 Td /F1 12.0 Tf  [(3)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 619.378 m 338.745 619.378 l S
+1 w 0 J [  ] 0 d
+77.505 619.878 m 77.505 568.546 l S
+BT 79.505 604.191 Td /F2 12.0 Tf  [(SQL:)] TJ ET
+BT 107.513 604.494 Td /F1 12.0 Tf  [( Data definition statements, data entry )] TJ ET
+BT 79.505 590.238 Td /F1 12.0 Tf  [(statements, data manipulation statements, system )] TJ ET
+BT 79.505 575.982 Td /F1 12.0 Tf  [(catalogue \(data dictionary\))] TJ ET
+1 w 0 J [  ] 0 d
+337.745 619.378 m 560.514 619.378 l S
+1 w 0 J [  ] 0 d
+338.245 619.878 m 338.245 568.546 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 619.878 m 559.764 568.546 l S
+BT 340.245 603.122 Td /F1 12.0 Tf  [(Database textbook, chapter: 4)] TJ ET
+BT 340.245 588.456 Td /F1 12.0 Tf  [(Laboratory 2: Accessing Oracle 12c servers )] TJ ET
+BT 340.245 574.200 Td /F1 12.0 Tf  [(and using SQL*Plus)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 569.046 m 78.005 569.046 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 569.546 m 35.516 518.214 l S
+BT 53.510 539.906 Td /F1 12.0 Tf  [(4)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 569.046 m 338.745 569.046 l S
+1 w 0 J [  ] 0 d
+77.505 569.546 m 77.505 518.214 l S
+BT 79.505 539.603 Td /F2 12.0 Tf  [(SQL: )] TJ ET
+BT 110.513 539.906 Td /F1 12.0 Tf  [(Queries, Subquery factoring)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 569.046 m 560.514 569.046 l S
+1 w 0 J [  ] 0 d
+338.245 569.546 m 338.245 518.214 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 569.546 m 559.764 518.214 l S
+BT 340.245 552.790 Td /F1 12.0 Tf  [(Database textbook, chapter: 5)] TJ ET
+BT 340.245 538.124 Td /F1 12.0 Tf  [(Laboratory 3: Using data definition and )] TJ ET
+BT 340.245 523.868 Td /F1 12.0 Tf  [(basic data manipulation statements of SQL)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 518.714 m 78.005 518.714 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 519.214 m 35.516 482.138 l S
+BT 53.510 496.702 Td /F1 12.0 Tf  [(5)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 518.714 m 338.745 518.714 l S
+1 w 0 J [  ] 0 d
+77.505 519.214 m 77.505 482.138 l S
+BT 79.505 503.527 Td /F2 12.0 Tf  [(SQL: )] TJ ET
+BT 110.513 503.830 Td /F1 12.0 Tf  [(Relational views, Advanced DML statements, )] TJ ET
+BT 79.505 489.574 Td /F1 12.0 Tf  [(Indexing, Access control)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 518.714 m 560.514 518.714 l S
+1 w 0 J [  ] 0 d
+338.245 519.214 m 338.245 482.138 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 519.214 m 559.764 482.138 l S
+BT 340.245 502.458 Td /F1 12.0 Tf  [(Database textbook,  chapters: 5, 17, 25)] TJ ET
+BT 340.245 487.792 Td /F1 12.0 Tf  [(Laboratory 4: Using SELECT statement \(1\))] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 482.638 m 78.005 482.638 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 483.138 m 35.516 413.986 l S
+BT 53.510 444.588 Td /F1 12.0 Tf  [(6)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 482.638 m 338.745 482.638 l S
+1 w 0 J [  ] 0 d
+77.505 483.138 m 77.505 413.986 l S
+BT 79.505 451.413 Td /F2 12.0 Tf  [(PL/SQL:)] TJ ET
+BT 126.185 451.716 Td /F1 12.0 Tf  [( data structures, control structures, )] TJ ET
+BT 79.505 437.460 Td /F1 12.0 Tf  [(programming with cursors)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 482.638 m 560.514 482.638 l S
+1 w 0 J [  ] 0 d
+338.245 483.138 m 338.245 413.986 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 483.138 m 559.764 413.986 l S
+BT 340.245 466.382 Td /F1 12.0 Tf  [(Oracle documentation: PL/SQL Language )] TJ ET
+BT 340.245 448.562 Td /F1 12.0 Tf  [(Reference)] TJ ET
+BT 340.245 433.896 Td /F1 12.0 Tf  [(Laboratory 5: Using SELECT statement \(2\), )] TJ ET
+BT 340.245 419.640 Td /F1 12.0 Tf  [(creating relationa views)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 414.486 m 78.005 414.486 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 414.986 m 35.516 334.998 l S
+BT 53.510 371.018 Td /F1 12.0 Tf  [(7)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 414.486 m 338.745 414.486 l S
+1 w 0 J [  ] 0 d
+77.505 414.986 m 77.505 334.998 l S
+BT 79.505 378.556 Td /F1 12.0 Tf  [( )] TJ ET
+BT 82.505 378.556 Td /F2 12.0 Tf  [(XML Databases:)] TJ ET
+BT 169.493 378.556 Td /F1 12.0 Tf  [( Basics, Design principles, )] TJ ET
+BT 79.505 360.736 Td /F1 12.0 Tf  [(Logical modelling, DTD)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 414.486 m 560.514 414.486 l S
+1 w 0 J [  ] 0 d
+338.245 414.986 m 338.245 334.998 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 414.986 m 559.764 334.998 l S
+BT 340.245 401.326 Td /F1 12.0 Tf  [(Database textbook, chapter: 11 )] TJ ET
+BT 340.245 383.830 Td /F1 12.0 Tf  [(XML textbook. chapters: 2, 4)] TJ ET
+BT 340.245 369.164 Td /F1 12.0 Tf  [(Laboratory 6: Using SELECT statement \(3\), )] TJ ET
+BT 340.245 354.908 Td /F1 12.0 Tf  [(implementaing advanced data )] TJ ET
+BT 340.245 340.652 Td /F1 12.0 Tf  [(manipulations, granting access rights)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 335.498 m 78.005 335.498 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 335.998 m 35.516 256.010 l S
+BT 53.510 292.030 Td /F1 12.0 Tf  [(8)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 335.498 m 338.745 335.498 l S
+1 w 0 J [  ] 0 d
+77.505 335.998 m 77.505 256.010 l S
+BT 79.505 291.727 Td /F2 12.0 Tf  [(XML Databases:)] TJ ET
+BT 166.493 292.030 Td /F1 12.0 Tf  [( XML Schema, XQuery, XPath)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 335.498 m 560.514 335.498 l S
+1 w 0 J [  ] 0 d
+338.245 335.998 m 338.245 256.010 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 335.998 m 559.764 256.010 l S
+BT 340.245 322.338 Td /F1 12.0 Tf  [(Database textbook, chapter: 11)] TJ ET
+BT 340.245 304.842 Td /F1 12.0 Tf  [(XML textbook chapters: 3, 6)] TJ ET
+BT 340.245 290.176 Td /F1 12.0 Tf  [(Laboratory 7: Implementation of PL/SQL )] TJ ET
+BT 340.245 275.920 Td /F1 12.0 Tf  [(programs, stored PL/SQL procedures and )] TJ ET
+BT 340.245 261.664 Td /F1 12.0 Tf  [(functions)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 256.510 m 78.005 256.510 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 257.010 m 35.516 205.678 l S
+BT 53.510 227.370 Td /F1 12.0 Tf  [(9)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 256.510 m 338.745 256.510 l S
+1 w 0 J [  ] 0 d
+77.505 257.010 m 77.505 205.678 l S
+BT 79.505 241.626 Td /F1 12.0 Tf  [( )] TJ ET
+BT 82.505 241.323 Td /F2 12.0 Tf  [(Concurrency control in database systems:)] TJ ET
+BT 79.505 227.370 Td /F1 12.0 Tf  [(database transactions, serializability,2 phase locking )] TJ ET
+BT 79.505 213.114 Td /F1 12.0 Tf  [(protocol, optimistic protocols, isolation levels,)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 256.510 m 560.514 256.510 l S
+1 w 0 J [  ] 0 d
+338.245 257.010 m 338.245 205.678 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 257.010 m 559.764 205.678 l S
+BT 340.245 240.254 Td /F1 12.0 Tf  [(Database textbook, chapters: 20, 21)] TJ ET
+BT 340.245 225.588 Td /F1 12.0 Tf  [(Laboratory 8: Modeling XML documents )] TJ ET
+BT 340.245 211.332 Td /F1 12.0 Tf  [(and validating XML documents)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 206.178 m 78.005 206.178 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 206.678 m 35.516 151.782 l S
+BT 50.510 175.256 Td /F1 12.0 Tf  [(10)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 206.178 m 338.745 206.178 l S
+1 w 0 J [  ] 0 d
+77.505 206.678 m 77.505 151.782 l S
+BT 79.505 189.922 Td /F2 12.0 Tf  [(Concurrency control in database systems:)] TJ ET
+BT 294.149 189.922 Td /F2 12.0 Tf  [( )] TJ ET
+BT 79.505 172.102 Td /F1 12.0 Tf  [(isolation levels)] TJ ET
+BT 79.505 157.133 Td /F2 12.0 Tf  [(Database recovery:)] TJ ET
+BT 178.469 157.436 Td /F1 12.0 Tf  [( database recovery protocol)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 206.178 m 560.514 206.178 l S
+1 w 0 J [  ] 0 d
+338.245 206.678 m 338.245 151.782 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 206.678 m 559.764 151.782 l S
+BT 340.245 188.140 Td /F1 12.0 Tf  [(Database textbook, chapter: 22)] TJ ET
+BT 340.245 173.474 Td /F1 12.0 Tf  [(Laboratory 9: Querying XML documents )] TJ ET
+BT 340.245 159.218 Td /F1 12.0 Tf  [(with XPAth and XQuery)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 152.282 m 78.005 152.282 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 152.782 m 35.516 83.630 l S
+BT 50.510 114.232 Td /F1 12.0 Tf  [(11)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 152.282 m 338.745 152.282 l S
+1 w 0 J [  ] 0 d
+77.505 152.782 m 77.505 83.630 l S
+BT 79.505 121.770 Td /F2 12.0 Tf  [(Distributed database systems:)] TJ ET
+BT 232.829 121.770 Td /F2 12.0 Tf  [( )] TJ ET
+BT 235.829 121.770 Td /F1 12.0 Tf  [( architecture, )] TJ ET
+BT 79.505 103.950 Td /F1 12.0 Tf  [(concurrency control, NoSQL database systems)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 152.282 m 560.514 152.282 l S
+1 w 0 J [  ] 0 d
+338.245 152.782 m 338.245 83.630 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 152.782 m 559.764 83.630 l S
+BT 340.245 136.026 Td /F1 12.0 Tf  [(Database textbook, chapters: 22, 26)] TJ ET
+BT 340.245 118.206 Td /F1 12.0 Tf  [(NoSQL textbook: chapters 1- 9)] TJ ET
+BT 340.245 103.540 Td /F1 12.0 Tf  [(Laboratory 10: Controlling database )] TJ ET
+BT 340.245 89.284 Td /F1 12.0 Tf  [(transactions)] TJ ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 26 0 R 28 0 R ]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 7319 >>
+stream
+
+0.000 0.000 0.000 rg
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 807.874 m 78.005 807.874 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 808.374 m 35.516 757.042 l S
+BT 50.510 778.734 Td /F1 12.0 Tf  [(12)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 807.874 m 338.745 807.874 l S
+1 w 0 J [  ] 0 d
+77.505 808.374 m 77.505 757.042 l S
+BT 79.505 785.862 Td /F1 12.0 Tf  [( )] TJ ET
+BT 82.505 785.559 Td /F2 12.0 Tf  [(Database design:)] TJ ET
+BT 169.505 785.862 Td /F1 12.0 Tf  [( anomalies, functional )] TJ ET
+BT 79.505 771.606 Td /F1 12.0 Tf  [(dependencies, normal forms)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 807.874 m 560.514 807.874 l S
+1 w 0 J [  ] 0 d
+338.245 808.374 m 338.245 757.042 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 808.374 m 559.764 757.042 l S
+BT 340.245 791.618 Td /F1 12.0 Tf  [(Database textbook, chapters: 14, 15)] TJ ET
+BT 340.245 776.952 Td /F1 12.0 Tf  [(Laboratory 11: Using distributed database )] TJ ET
+BT 340.245 762.696 Td /F1 12.0 Tf  [(systems and NoSQL database systems)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+34.766 757.542 m 78.005 757.542 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+34.766 700.082 m 78.005 700.082 l S
+0.662 0.662 0.662 RG
+1.5 w 0 J [  ] 0 d
+35.516 758.042 m 35.516 699.332 l S
+BT 50.510 724.838 Td /F1 12.0 Tf  [(13)] TJ ET
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.005 757.542 m 338.745 757.542 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+77.005 700.082 m 338.745 700.082 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+77.505 758.042 m 77.505 699.332 l S
+BT 79.505 731.966 Td /F1 12.0 Tf  [( )] TJ ET
+BT 82.505 731.663 Td /F2 12.0 Tf  [(Database design:)] TJ ET
+BT 169.505 731.966 Td /F1 12.0 Tf  [( database design based on data )] TJ ET
+BT 79.505 717.710 Td /F1 12.0 Tf  [(dependencies)] TJ ET
+1 w 0 J [  ] 0 d
+337.745 757.542 m 560.514 757.542 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+337.745 700.082 m 560.514 700.082 l S
+0.000 0.000 0.000 RG
+1 w 0 J [  ] 0 d
+338.245 758.042 m 338.245 699.332 l S
+0.172 0.172 0.172 RG
+1.5 w 0 J [  ] 0 d
+559.764 758.042 m 559.764 699.332 l S
+BT 340.245 741.286 Td /F1 12.0 Tf  [(Database textbook, chapters: 14, 15)] TJ ET
+BT 340.245 723.466 Td /F1 12.0 Tf  [(Laboratory 12: Normalizing relational )] TJ ET
+BT 340.245 705.646 Td /F1 12.0 Tf  [(databases)] TJ ET
+34.016 660.326 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 663.177 Td /F2 12.0 Tf  [(Subject Materials: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 634.070 Td /F1 12.0 Tf  [(Any readings/references are recommended only and are not intended to be an exhaustive list.)] TJ ET
+BT 34.016 616.250 Td /F1 12.0 Tf  [(Students are encouraged to use the library catalogue and databases to locate additional readings.)] TJ ET
+34.016 568.430 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 571.281 Td /F2 12.0 Tf  [(Textbook\(s\): )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 542.174 Td /F2 12.0 Tf  [(Database textbook:)] TJ ET
+BT 34.016 524.354 Td /F1 12.0 Tf  [(Thomas Connolly and Carolyn Begg, Database systems - A Practical Approach to Design, Implementation, )] TJ ET
+BT 34.016 506.534 Td /F1 12.0 Tf  [(and Management, Sixth Edition, The Pearson Education Inc, 2015.)] TJ ET
+BT 34.016 490.853 Td /F2 12.0 Tf  [(Other database textbooks:)] TJ ET
+BT 169.340 490.853 Td /F2 12.0 Tf  [( )] TJ ET
+BT 172.340 490.853 Td /F2 12.0 Tf  [( )] TJ ET
+BT 34.016 473.567 Td /F1 12.0 Tf  [(Elmasri R. and Navathe S. B., Database Systems Models, Languages, and Application Programming, 6th )] TJ ET
+BT 34.016 455.747 Td /F1 12.0 Tf  [(ed., The Person Education Inc, 2011)] TJ ET
+BT 34.016 437.927 Td /F1 12.0 Tf  [(Garcia-Molina H., Ullman J. D., and Widom J. D., )] TJ ET
+BT 280.316 437.927 Td /F4 12.0 Tf  [(Database Systems:The Complete Book)] TJ ET
+BT 465.956 437.927 Td /F1 12.0 Tf  [(. Prentice Hall )] TJ ET
+BT 34.016 420.107 Td /F1 12.0 Tf  [(International Limited, 2002)] TJ ET
+BT 34.016 402.287 Td /F1 12.0 Tf  [(Ramakrishnan R. and Gehrke J., )] TJ ET
+BT 192.656 402.287 Td /F4 12.0 Tf  [(Database Management Systems)] TJ ET
+BT 345.296 402.287 Td /F1 12.0 Tf  [(, 3rd ed. Mc Graw-Hill, 2003)] TJ ET
+BT 34.016 384.467 Td /F1 12.0 Tf  [(Silberschatz A., Korth H. F. and Sudarshan S., )] TJ ET
+BT 260.660 384.467 Td /F4 12.0 Tf  [(Database System Concepts)] TJ ET
+BT 390.644 384.467 Td /F1 12.0 Tf  [(, 4th ed., McGraw-Hill , 2002)] TJ ET
+BT 34.016 366.647 Td /F2 12.0 Tf  [(SQL textbooks )] TJ ET
+BT 113.360 366.647 Td /F1 12.0 Tf  [(\(in the increasing order of  complexity and sophistication\):)] TJ ET
+BT 395.324 366.647 Td /F2 12.0 Tf  [( )] TJ ET
+BT 34.016 348.827 Td /F1 12.0 Tf  [(Earp R. and Bagui S., )] TJ ET
+BT 141.344 348.827 Td /F4 12.0 Tf  [(Learning SQL A Step-by-Step Guide Using Oracle)] TJ ET
+BT 383.984 348.827 Td /F1 12.0 Tf  [(, Addison-Wesley, 2003.)] TJ ET
+BT 34.016 331.007 Td /F1 12.0 Tf  [(Shah N., )] TJ ET
+BT 78.680 331.007 Td /F4 12.0 Tf  [(Database Systems Using Oracle A Simplified Guide to SQL and PL/SQL)] TJ ET
+BT 427.340 331.007 Td /F1 12.0 Tf  [(, 2nd ed. Pearson )] TJ ET
+BT 34.016 313.187 Td /F1 12.0 Tf  [(Education International, 2005.)] TJ ET
+BT 34.016 295.367 Td /F1 12.0 Tf  [(Mishra S. and Beaulieu A., )] TJ ET
+BT 167.336 295.367 Td /F4 12.0 Tf  [(Mastering Oracle SQL)] TJ ET
+BT 277.328 295.367 Td /F1 12.0 Tf  [(, O'Reilly, 2002.)] TJ ET
+BT 34.016 277.547 Td /F1 12.0 Tf  [(Cumming A. and Russel G., )] TJ ET
+BT 172.688 277.547 Td /F4 12.0 Tf  [(SQL Hack Tips &Tools for Digging into Your Data)] TJ ET
+BT 419.384 277.547 Td /F1 12.0 Tf  [(, O?Reilly, 2007)] TJ ET
+BT 34.016 259.727 Td /F1 12.0 Tf  [(Tropashko V., )] TJ ET
+BT 106.004 259.727 Td /F4 12.0 Tf  [(SQL design Patterns Expert Guide to SQL Programming)] TJ ET
+BT 379.664 259.727 Td /F1 12.0 Tf  [(, Rampant TechPress, 2006)] TJ ET
+BT 34.016 241.907 Td /F2 12.0 Tf  [(XML textbook:)] TJ ET
+BT 34.016 223.943 Td /F1 12.0 Tf  [(Moller A., Schwartzbach M., An Introduction to XML and Web Technology, Addison Wesley, 2006)] TJ ET
+BT 34.016 206.087 Td /F2 12.0 Tf  [(NoSQL textbook:)] TJ ET
+BT 34.016 188.123 Td /F1 12.0 Tf  [(Tiwari S. Professional NoSQL, John Wiley & Sons, 2011)] TJ ET
+BT 34.016 170.267 Td /F2 12.0 Tf  [(Oracle 12c DBMS documentation library is available at:)] TJ ET
+BT 37.616 152.447 Td /F1 12.0 Tf  [(http://www.oracle.com/pls/db121/homepage)] TJ ET
+0.6 w 0 J [  ] 0 d
+37.616 149.747 m 251.600 149.747 l S
+BT 34.016 134.627 Td /F2 12.0 Tf  [(Other Oracle DBMS textbooks available on Safari Bookshelf \(O'Reilly Network\), access through a )] TJ ET
+BT 34.016 116.807 Td /F2 12.0 Tf  [(link to)] TJ ET
+BT 70.628 116.807 Td /F2 12.0 Tf  [(Proquest Safari website)] TJ ET
+0.6 w 0 J [  ] 0 d
+70.628 114.107 m 191.948 114.107 l S
+BT 34.016 98.987 Td /F2 12.0 Tf  [(All other materials are available through Moodle.)] TJ ET
+34.016 69.167 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 72.018 Td /F2 12.0 Tf  [(Assessment: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 42.911 Td /F1 12.0 Tf  [(This subject has the following assessment components.)] TJ ET
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 27.347 m 485.516 27.347 l 484.016 25.847 l 35.516 25.847 l  f
+0.172 0.172 0.172 rg
+0.172 0.172 0.172 RG
+485.516 27.347 m 485.516 -621.778 l 484.016 -621.778 l 484.016 25.847 l  f
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 27.347 m 34.016 -621.778 l 35.516 -621.778 l 35.516 25.847 l  f
+endstream
+endobj
+25 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F4
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+>>
+endobj
+26 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 27 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 34.0157 151.3673 255.1997 163.2473 ]
+>>
+endobj
+27 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://www.oracle.com/pls/db121/homepage)
+>>
+endobj
+28 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 29 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 67.0277 115.7273 195.5477 127.6073 ]
+>>
+endobj
+29 0 obj
+<< /Type /Action
+/S /URI
+/URI (http://ezproxy.uow.edu.au:2048/login?url=http://proquest.safaribooksonline.com/?uicode=uow )
+>>
+endobj
+30 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 31 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 19005 >>
+stream
+
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+0.6 w 0 J [  ] 0 d
+0.172 0.172 0.172 rg
+0.172 0.172 0.172 RG
+34.016 116.006 m 485.516 116.006 l 484.016 117.506 l 35.516 117.506 l  f
+485.516 807.874 m 485.516 116.006 l 484.016 117.506 l 484.016 807.874 l  f
+0.662 0.662 0.662 rg
+0.662 0.662 0.662 RG
+34.016 807.874 m 34.016 116.006 l 35.516 117.506 l 35.516 807.874 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 807.124 m 183.246 807.124 l 182.246 806.124 l 37.266 806.124 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 744.524 m 183.246 744.524 l 182.246 745.524 l 37.266 745.524 l  f
+183.246 807.124 m 183.246 744.524 l 182.246 745.524 l 182.246 806.124 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 807.124 m 36.266 744.524 l 37.266 745.524 l 37.266 806.124 l  f
+BT 38.766 778.978 Td /F1 12.0 Tf  [(ASSESSMENT ITEMS & )] TJ ET
+BT 38.766 764.722 Td /F1 12.0 Tf  [(FORMAT)] TJ ET
+183.996 807.124 m 234.568 807.124 l 233.568 806.124 l 184.996 806.124 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 744.524 m 234.568 744.524 l 233.568 745.524 l 184.996 745.524 l  f
+234.568 807.124 m 234.568 744.524 l 233.568 745.524 l 233.568 806.124 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 807.124 m 183.996 744.524 l 184.996 745.524 l 184.996 806.124 l  f
+BT 186.496 786.106 Td /F1 12.0 Tf  [(% OF )] TJ ET
+BT 186.496 771.850 Td /F1 12.0 Tf  [(FINAL )] TJ ET
+BT 186.496 757.594 Td /F1 12.0 Tf  [(MARK)] TJ ET
+235.318 807.124 m 318.243 807.124 l 317.243 806.124 l 236.318 806.124 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 744.524 m 318.243 744.524 l 317.243 745.524 l 236.318 745.524 l  f
+318.243 807.124 m 318.243 744.524 l 317.243 745.524 l 317.243 806.124 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 807.124 m 235.318 744.524 l 236.318 745.524 l 236.318 806.124 l  f
+BT 237.818 793.464 Td /F1 12.0 Tf  [(GROUP/)] TJ ET
+BT 237.818 779.064 Td /F1 12.0 Tf  [(INDIVIDUAL)] TJ ET
+318.993 807.124 m 395.213 807.124 l 394.213 806.124 l 319.993 806.124 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 744.524 m 395.213 744.524 l 394.213 745.524 l 319.993 745.524 l  f
+395.213 807.124 m 395.213 744.524 l 394.213 745.524 l 394.213 806.124 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 807.124 m 318.993 744.524 l 319.993 745.524 l 319.993 806.124 l  f
+BT 321.493 771.850 Td /F1 12.0 Tf  [(DUE DATE)] TJ ET
+395.963 807.124 m 483.266 807.124 l 482.266 806.124 l 396.963 806.124 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 744.524 m 483.266 744.524 l 482.266 745.524 l 396.963 745.524 l  f
+483.266 807.124 m 483.266 744.524 l 482.266 745.524 l 482.266 806.124 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 807.124 m 395.963 744.524 l 396.963 745.524 l 396.963 806.124 l  f
+BT 398.463 786.106 Td /F1 12.0 Tf  [(SUBJECT )] TJ ET
+BT 398.463 771.850 Td /F1 12.0 Tf  [(LEARNING )] TJ ET
+BT 398.463 757.594 Td /F1 12.0 Tf  [(OUTCOMES)] TJ ET
+36.266 743.774 m 183.246 743.774 l 182.246 742.774 l 37.266 742.774 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 581.958 m 183.246 581.958 l 182.246 582.958 l 37.266 582.958 l  f
+183.246 743.774 m 183.246 581.958 l 182.246 582.958 l 182.246 742.774 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 743.774 m 36.266 581.958 l 37.266 582.958 l 37.266 742.774 l  f
+BT 38.766 730.172 Td /F1 12.0 Tf  [( )] TJ ET
+BT 38.766 712.762 Td /F2 12.0 Tf  [(Assignment 1)] TJ ET
+BT 38.766 694.942 Td /F1 12.0 Tf  [(The tasks of this assignment )] TJ ET
+BT 38.766 677.122 Td /F1 12.0 Tf  [(include: conceptual )] TJ ET
+BT 38.766 659.302 Td /F1 12.0 Tf  [(modeling and application of )] TJ ET
+BT 38.766 641.482 Td /F1 12.0 Tf  [(CASE system to logical )] TJ ET
+BT 38.766 623.662 Td /F1 12.0 Tf  [(database design, )] TJ ET
+BT 38.766 605.842 Td /F1 12.0 Tf  [(implementation of relational )] TJ ET
+BT 38.766 588.022 Td /F1 12.0 Tf  [(database)] TJ ET
+183.996 743.774 m 234.568 743.774 l 233.568 742.774 l 184.996 742.774 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 581.958 m 234.568 581.958 l 233.568 582.958 l 184.996 582.958 l  f
+234.568 743.774 m 234.568 581.958 l 233.568 582.958 l 233.568 742.774 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 743.774 m 183.996 581.958 l 184.996 582.958 l 184.996 742.774 l  f
+BT 186.496 658.892 Td /F1 12.0 Tf  [( 4%)] TJ ET
+235.318 743.774 m 318.243 743.774 l 317.243 742.774 l 236.318 742.774 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 581.958 m 318.243 581.958 l 317.243 582.958 l 236.318 582.958 l  f
+318.243 743.774 m 318.243 581.958 l 317.243 582.958 l 317.243 742.774 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 743.774 m 235.318 581.958 l 236.318 582.958 l 236.318 742.774 l  f
+BT 237.818 658.892 Td /F1 12.0 Tf  [( Individual)] TJ ET
+318.993 743.774 m 395.213 743.774 l 394.213 742.774 l 319.993 742.774 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 581.958 m 395.213 581.958 l 394.213 582.958 l 319.993 582.958 l  f
+395.213 743.774 m 395.213 581.958 l 394.213 582.958 l 394.213 742.774 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 743.774 m 318.993 581.958 l 319.993 582.958 l 319.993 742.774 l  f
+BT 321.493 684.250 Td /F1 12.0 Tf  [(Due by week )] TJ ET
+BT 321.493 666.430 Td /F1 12.0 Tf  [(4)] TJ ET
+BT 321.493 648.610 Td /F1 12.0 Tf  [(Electronic)] TJ ET
+BT 321.493 630.790 Td /F1 12.0 Tf  [(submission)] TJ ET
+395.963 743.774 m 483.266 743.774 l 482.266 742.774 l 396.963 742.774 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 581.958 m 483.266 581.958 l 482.266 582.958 l 396.963 582.958 l  f
+483.266 743.774 m 483.266 581.958 l 482.266 582.958 l 482.266 742.774 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 743.774 m 395.963 581.958 l 396.963 582.958 l 396.963 742.774 l  f
+BT 398.463 658.892 Td /F1 12.0 Tf  [( 1, 2)] TJ ET
+36.266 581.208 m 183.246 581.208 l 182.246 580.208 l 37.266 580.208 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 472.708 m 183.246 472.708 l 182.246 473.708 l 37.266 473.708 l  f
+183.246 581.208 m 183.246 472.708 l 182.246 473.708 l 182.246 580.208 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 581.208 m 36.266 472.708 l 37.266 473.708 l 37.266 580.208 l  f
+BT 38.766 550.052 Td /F2 12.0 Tf  [(Assignment 2)] TJ ET
+BT 38.766 532.232 Td /F1 12.0 Tf  [(Data definition statements )] TJ ET
+BT 38.766 514.412 Td /F1 12.0 Tf  [(of SQL, data manipulation )] TJ ET
+BT 38.766 496.592 Td /F1 12.0 Tf  [(statements of SQL, )] TJ ET
+BT 38.766 478.772 Td /F1 12.0 Tf  [(SELECT statement.)] TJ ET
+183.996 581.208 m 234.568 581.208 l 233.568 580.208 l 184.996 580.208 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 472.708 m 234.568 472.708 l 233.568 473.708 l 184.996 473.708 l  f
+234.568 581.208 m 234.568 472.708 l 233.568 473.708 l 233.568 580.208 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 581.208 m 183.996 472.708 l 184.996 473.708 l 184.996 580.208 l  f
+BT 186.496 522.984 Td /F1 12.0 Tf  [( 8%)] TJ ET
+235.318 581.208 m 318.243 581.208 l 317.243 580.208 l 236.318 580.208 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 472.708 m 318.243 472.708 l 317.243 473.708 l 236.318 473.708 l  f
+318.243 581.208 m 318.243 472.708 l 317.243 473.708 l 317.243 580.208 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 581.208 m 235.318 472.708 l 236.318 473.708 l 236.318 580.208 l  f
+BT 237.818 522.984 Td /F1 12.0 Tf  [(Individual)] TJ ET
+318.993 581.208 m 395.213 581.208 l 394.213 580.208 l 319.993 580.208 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 472.708 m 395.213 472.708 l 394.213 473.708 l 319.993 473.708 l  f
+395.213 581.208 m 395.213 472.708 l 394.213 473.708 l 394.213 580.208 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 581.208 m 318.993 472.708 l 319.993 473.708 l 319.993 580.208 l  f
+BT 321.493 563.970 Td /F1 12.0 Tf  [( )] TJ ET
+BT 321.493 546.560 Td /F1 12.0 Tf  [(Due by week )] TJ ET
+BT 321.493 528.740 Td /F1 12.0 Tf  [(7)] TJ ET
+BT 321.493 510.920 Td /F1 12.0 Tf  [( )] TJ ET
+BT 321.493 496.254 Td /F1 12.0 Tf  [(Electronic )] TJ ET
+BT 321.493 481.998 Td /F1 12.0 Tf  [(submission)] TJ ET
+395.963 581.208 m 483.266 581.208 l 482.266 580.208 l 396.963 580.208 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 472.708 m 483.266 472.708 l 482.266 473.708 l 396.963 473.708 l  f
+483.266 581.208 m 483.266 472.708 l 482.266 473.708 l 482.266 580.208 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 581.208 m 395.963 472.708 l 396.963 473.708 l 396.963 580.208 l  f
+BT 398.463 522.984 Td /F1 12.0 Tf  [(1, 2, 3, 4 )] TJ ET
+36.266 471.958 m 183.246 471.958 l 182.246 470.958 l 37.266 470.958 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 342.218 m 183.246 342.218 l 182.246 343.218 l 37.266 343.218 l  f
+183.246 471.958 m 183.246 342.218 l 182.246 343.218 l 182.246 470.958 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 471.958 m 36.266 342.218 l 37.266 343.218 l 37.266 470.958 l  f
+BT 38.766 455.202 Td /F2 12.0 Tf  [(Assignment 3)] TJ ET
+BT 38.766 437.382 Td /F1 12.0 Tf  [(Creating relational views, )] TJ ET
+BT 38.766 419.562 Td /F1 12.0 Tf  [(implementaing advanced )] TJ ET
+BT 38.766 401.742 Td /F1 12.0 Tf  [(data manipulations, granting )] TJ ET
+BT 38.766 383.922 Td /F1 12.0 Tf  [(access rights, creating )] TJ ET
+BT 38.766 366.102 Td /F1 12.0 Tf  [(PL/SQL stored functions )] TJ ET
+BT 38.766 348.282 Td /F1 12.0 Tf  [(and procedures)] TJ ET
+183.996 471.958 m 234.568 471.958 l 233.568 470.958 l 184.996 470.958 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 342.218 m 234.568 342.218 l 233.568 343.218 l 184.996 343.218 l  f
+234.568 471.958 m 234.568 342.218 l 233.568 343.218 l 233.568 470.958 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 471.958 m 183.996 342.218 l 184.996 343.218 l 184.996 470.958 l  f
+BT 186.496 403.114 Td /F1 12.0 Tf  [(8%)] TJ ET
+235.318 471.958 m 318.243 471.958 l 317.243 470.958 l 236.318 470.958 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 342.218 m 318.243 342.218 l 317.243 343.218 l 236.318 343.218 l  f
+318.243 471.958 m 318.243 342.218 l 317.243 343.218 l 317.243 470.958 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 471.958 m 235.318 342.218 l 236.318 343.218 l 236.318 470.958 l  f
+BT 237.818 403.114 Td /F1 12.0 Tf  [(Individual)] TJ ET
+318.993 471.958 m 395.213 471.958 l 394.213 470.958 l 319.993 470.958 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 342.218 m 395.213 342.218 l 394.213 343.218 l 319.993 343.218 l  f
+395.213 471.958 m 395.213 342.218 l 394.213 343.218 l 394.213 470.958 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 471.958 m 318.993 342.218 l 319.993 343.218 l 319.993 470.958 l  f
+BT 321.493 428.472 Td /F1 12.0 Tf  [(Due by )] TJ ET
+BT 321.493 410.652 Td /F1 12.0 Tf  [(week 10)] TJ ET
+BT 321.493 392.832 Td /F1 12.0 Tf  [(Electronic )] TJ ET
+BT 321.493 375.012 Td /F1 12.0 Tf  [(submission )] TJ ET
+395.963 471.958 m 483.266 471.958 l 482.266 470.958 l 396.963 470.958 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 342.218 m 483.266 342.218 l 482.266 343.218 l 396.963 343.218 l  f
+483.266 471.958 m 483.266 342.218 l 482.266 343.218 l 482.266 470.958 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 471.958 m 395.963 342.218 l 396.963 343.218 l 396.963 470.958 l  f
+BT 398.463 403.114 Td /F1 12.0 Tf  [( 1, 2, 3, 4, 5)] TJ ET
+36.266 341.468 m 183.246 341.468 l 182.246 340.468 l 37.266 340.468 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 193.908 m 183.246 193.908 l 182.246 194.908 l 37.266 194.908 l  f
+183.246 341.468 m 183.246 193.908 l 182.246 194.908 l 182.246 340.468 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 341.468 m 36.266 193.908 l 37.266 194.908 l 37.266 340.468 l  f
+BT 38.766 324.712 Td /F2 12.0 Tf  [(Assignment 4)] TJ ET
+BT 38.766 306.892 Td /F1 12.0 Tf  [(Design and implementation )] TJ ET
+BT 38.766 289.072 Td /F1 12.0 Tf  [(of XML documents, )] TJ ET
+BT 38.766 271.252 Td /F1 12.0 Tf  [(querying XML documents, )] TJ ET
+BT 38.766 253.432 Td /F1 12.0 Tf  [(using distributed database )] TJ ET
+BT 38.766 235.612 Td /F1 12.0 Tf  [(systems, using NoSQL )] TJ ET
+BT 38.766 217.792 Td /F1 12.0 Tf  [(database systems)] TJ ET
+BT 38.766 199.972 Td /F1 12.0 Tf  [( )] TJ ET
+183.996 341.468 m 234.568 341.468 l 233.568 340.468 l 184.996 340.468 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 193.908 m 234.568 193.908 l 233.568 194.908 l 184.996 194.908 l  f
+234.568 341.468 m 234.568 193.908 l 233.568 194.908 l 233.568 340.468 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 341.468 m 183.996 193.908 l 184.996 194.908 l 184.996 340.468 l  f
+BT 186.496 263.714 Td /F1 12.0 Tf  [(8%)] TJ ET
+235.318 341.468 m 318.243 341.468 l 317.243 340.468 l 236.318 340.468 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 193.908 m 318.243 193.908 l 317.243 194.908 l 236.318 194.908 l  f
+318.243 341.468 m 318.243 193.908 l 317.243 194.908 l 317.243 340.468 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 341.468 m 235.318 193.908 l 236.318 194.908 l 236.318 340.468 l  f
+BT 237.818 263.714 Td /F1 12.0 Tf  [(Individual)] TJ ET
+318.993 341.468 m 395.213 341.468 l 394.213 340.468 l 319.993 340.468 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 193.908 m 395.213 193.908 l 394.213 194.908 l 319.993 194.908 l  f
+395.213 341.468 m 395.213 193.908 l 394.213 194.908 l 394.213 340.468 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 341.468 m 318.993 193.908 l 319.993 194.908 l 319.993 340.468 l  f
+BT 321.493 297.982 Td /F1 12.0 Tf  [(Due by week )] TJ ET
+BT 321.493 280.162 Td /F1 12.0 Tf  [(13)] TJ ET
+BT 321.493 262.342 Td /F1 12.0 Tf  [( )] TJ ET
+BT 321.493 244.522 Td /F1 12.0 Tf  [(Electronic )] TJ ET
+BT 321.493 226.702 Td /F1 12.0 Tf  [(submission)] TJ ET
+395.963 341.468 m 483.266 341.468 l 482.266 340.468 l 396.963 340.468 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 193.908 m 483.266 193.908 l 482.266 194.908 l 396.963 194.908 l  f
+483.266 341.468 m 483.266 193.908 l 482.266 194.908 l 482.266 340.468 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 341.468 m 395.963 193.908 l 396.963 194.908 l 396.963 340.468 l  f
+BT 398.463 270.842 Td /F1 12.0 Tf  [( 1, 2, 3, 4, 5, 6, )] TJ ET
+BT 398.463 256.586 Td /F1 12.0 Tf  [(7, 8, 9, 10)] TJ ET
+36.266 193.158 m 183.246 193.158 l 182.246 192.158 l 37.266 192.158 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 152.518 m 183.246 152.518 l 182.246 153.518 l 37.266 153.518 l  f
+183.246 193.158 m 183.246 152.518 l 182.246 153.518 l 182.246 192.158 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 193.158 m 36.266 152.518 l 37.266 153.518 l 37.266 192.158 l  f
+BT 38.766 175.992 Td /F1 12.0 Tf  [(Implementation of )] TJ ET
+BT 38.766 161.736 Td /F1 12.0 Tf  [(laboratory tasks)] TJ ET
+183.996 193.158 m 234.568 193.158 l 233.568 192.158 l 184.996 192.158 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 152.518 m 234.568 152.518 l 233.568 153.518 l 184.996 153.518 l  f
+234.568 193.158 m 234.568 152.518 l 233.568 153.518 l 233.568 192.158 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 193.158 m 183.996 152.518 l 184.996 153.518 l 184.996 192.158 l  f
+BT 186.496 168.864 Td /F1 12.0 Tf  [(12%)] TJ ET
+235.318 193.158 m 318.243 193.158 l 317.243 192.158 l 236.318 192.158 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 152.518 m 318.243 152.518 l 317.243 153.518 l 236.318 153.518 l  f
+318.243 193.158 m 318.243 152.518 l 317.243 153.518 l 317.243 192.158 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 193.158 m 235.318 152.518 l 236.318 153.518 l 236.318 192.158 l  f
+BT 237.818 168.864 Td /F1 12.0 Tf  [(Individual)] TJ ET
+318.993 193.158 m 395.213 193.158 l 394.213 192.158 l 319.993 192.158 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 152.518 m 395.213 152.518 l 394.213 153.518 l 319.993 153.518 l  f
+395.213 193.158 m 395.213 152.518 l 394.213 153.518 l 394.213 192.158 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 193.158 m 318.993 152.518 l 319.993 153.518 l 319.993 192.158 l  f
+BT 321.493 176.402 Td /F1 12.0 Tf  [( Week 2-13)] TJ ET
+BT 321.493 158.582 Td /F1 12.0 Tf  [(1% per lab)] TJ ET
+395.963 193.158 m 483.266 193.158 l 482.266 192.158 l 396.963 192.158 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 152.518 m 483.266 152.518 l 482.266 153.518 l 396.963 153.518 l  f
+483.266 193.158 m 483.266 152.518 l 482.266 153.518 l 482.266 192.158 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 193.158 m 395.963 152.518 l 396.963 153.518 l 396.963 192.158 l  f
+BT 398.463 175.992 Td /F1 12.0 Tf  [( 1, 2, 3, 4, 5, 6, )] TJ ET
+BT 398.463 161.736 Td /F1 12.0 Tf  [(7, 8, 9, 10)] TJ ET
+36.266 151.768 m 183.246 151.768 l 182.246 150.768 l 37.266 150.768 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+36.266 118.256 m 183.246 118.256 l 182.246 119.256 l 37.266 119.256 l  f
+183.246 151.768 m 183.246 118.256 l 182.246 119.256 l 182.246 150.768 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+36.266 151.768 m 36.266 118.256 l 37.266 119.256 l 37.266 150.768 l  f
+BT 38.766 131.038 Td /F1 12.0 Tf  [(Final Examination)] TJ ET
+183.996 151.768 m 234.568 151.768 l 233.568 150.768 l 184.996 150.768 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+183.996 118.256 m 234.568 118.256 l 233.568 119.256 l 184.996 119.256 l  f
+234.568 151.768 m 234.568 118.256 l 233.568 119.256 l 233.568 150.768 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+183.996 151.768 m 183.996 118.256 l 184.996 119.256 l 184.996 150.768 l  f
+BT 186.496 131.038 Td /F1 12.0 Tf  [(60%)] TJ ET
+235.318 151.768 m 318.243 151.768 l 317.243 150.768 l 236.318 150.768 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+235.318 118.256 m 318.243 118.256 l 317.243 119.256 l 236.318 119.256 l  f
+318.243 151.768 m 318.243 118.256 l 317.243 119.256 l 317.243 150.768 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+235.318 151.768 m 235.318 118.256 l 236.318 119.256 l 236.318 150.768 l  f
+BT 237.818 131.038 Td /F1 12.0 Tf  [(Individual)] TJ ET
+318.993 151.768 m 395.213 151.768 l 394.213 150.768 l 319.993 150.768 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+318.993 118.256 m 395.213 118.256 l 394.213 119.256 l 319.993 119.256 l  f
+395.213 151.768 m 395.213 118.256 l 394.213 119.256 l 394.213 150.768 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+318.993 151.768 m 318.993 118.256 l 319.993 119.256 l 319.993 150.768 l  f
+BT 321.493 138.166 Td /F1 12.0 Tf  [(Examination )] TJ ET
+BT 321.493 123.910 Td /F1 12.0 Tf  [(Period)] TJ ET
+395.963 151.768 m 483.266 151.768 l 482.266 150.768 l 396.963 150.768 l  f
+0.160 0.160 0.160 rg
+0.160 0.160 0.160 RG
+395.963 118.256 m 483.266 118.256 l 482.266 119.256 l 396.963 119.256 l  f
+483.266 151.768 m 483.266 118.256 l 482.266 119.256 l 482.266 150.768 l  f
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+395.963 151.768 m 395.963 118.256 l 396.963 119.256 l 396.963 150.768 l  f
+BT 398.463 138.166 Td /F1 12.0 Tf  [( 1, 2, 3, 4, 5, 6, )] TJ ET
+BT 398.463 123.910 Td /F1 12.0 Tf  [(7, 8, 9, 10)] TJ ET
+BT 34.016 89.750 Td /F2 12.0 Tf  [( )] TJ ET
+34.016 59.930 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 62.781 Td /F2 12.0 Tf  [(Notes on Assessment: )] TJ ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 33 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 5002 >>
+stream
+
+1.000 1.000 1.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+0.000 0.000 0.000 rg
+BT 34.016 793.618 Td /F1 12.0 Tf  [(All assignments and lab tasks are expected to be completed independently.  Plagiarism may result in a FAIL )] TJ ET
+BT 34.016 775.654 Td /F1 12.0 Tf  [(grade being recorded for that assignment. )] TJ ET
+BT 34.016 739.654 Td /F2 12.0 Tf  [(Electronic Submission of Assessment Items:)] TJ ET
+BT 34.016 721.798 Td /F1 12.0 Tf  [(Unless otherwise notified by the subject coordinator, all written assignments and lab tasks must be submitted )] TJ ET
+BT 34.016 703.978 Td /F1 12.0 Tf  [(electronically.)] TJ ET
+34.016 674.158 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 677.009 Td /F2 12.0 Tf  [(Assessment General: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 647.902 Td /F1 12.0 Tf  [(Submission of assessment items via email will not be accepted. All email submissions will result with )] TJ ET
+BT 34.016 629.938 Td /F1 12.0 Tf  [(immediate 0.0 \(zero\) mark granted for the respective coursework component.)] TJ ET
+BT 34.016 593.938 Td /F2 12.0 Tf  [(Other Procedures for the submission of assessment items: )] TJ ET
+BT 34.016 576.082 Td /F1 12.0 Tf  [(In addition to the solutions students are required to submit execution results for the assignments and lab )] TJ ET
+BT 34.016 558.118 Td /F1 12.0 Tf  [(tasks when they are applicable \(See the specifications for more details\).)] TJ ET
+BT 34.016 540.262 Td /F1 12.0 Tf  [(All assignments will be returned within 2 weeks of their submission.)] TJ ET
+BT 34.016 522.442 Td /F2 12.0 Tf  [(Electronic release of Assessment Items)] TJ ET
+BT 34.016 504.622 Td /F1 12.0 Tf  [(Specifications of all assignments will be released in electronic format )] TJ ET
+BT 370.628 504.622 Td /F2 12.0 Tf  [(ONLY)] TJ ET
+BT 405.296 504.622 Td /F1 12.0 Tf  [(. There will be )] TJ ET
+BT 478.280 504.622 Td /F2 12.0 Tf  [(NO)] TJ ET
+BT 496.280 504.622 Td /F1 12.0 Tf  [( printed hard )] TJ ET
+BT 34.016 486.802 Td /F1 12.0 Tf  [(copies distributed during lecture or lab classes. The students should check Moodle site for the subject )] TJ ET
+BT 34.016 468.982 Td /F1 12.0 Tf  [(regularly.)] TJ ET
+BT 34.016 451.162 Td /F2 12.0 Tf  [(Remarks on Assessment)] TJ ET
+BT 34.016 433.342 Td /F1 12.0 Tf  [(\(a\) As assignments are to assess a student's understanding of course material, each assignment must be )] TJ ET
+BT 34.016 415.522 Td /F1 12.0 Tf  [(solved using only material covered up to that point in the course \(unless otherwise stated in the question\).)] TJ ET
+BT 34.016 397.702 Td /F1 12.0 Tf  [(\(b\) Students who copy an assignment will receive no marks for that assignment.  This also covers )] TJ ET
+BT 34.016 379.882 Td /F1 12.0 Tf  [(assignments which may be the product of community effort by several students.  Working together is )] TJ ET
+BT 34.016 362.062 Td /F1 12.0 Tf  [(acceptable, but the final assignment must be the work of the individual student, as assessment is a measure )] TJ ET
+BT 34.016 344.242 Td /F1 12.0 Tf  [(of your ability.)] TJ ET
+BT 34.016 326.422 Td /F1 12.0 Tf  [(\(c\) Programs that do not compile due to the syntax errors will receive no marks, and may still be commented )] TJ ET
+BT 34.016 308.602 Td /F1 12.0 Tf  [(upon. Proper documentation and program style are needed in the assignments to receive the full marks.)] TJ ET
+BT 34.016 290.782 Td /F1 12.0 Tf  [(\(d\) The specifications of assignments and sample solutions will be available on Moodle.)] TJ ET
+BT 34.016 272.962 Td /F1 12.0 Tf  [(\(e\) Students should check the web page regularly for changes and updates to subject information together )] TJ ET
+BT 34.016 255.142 Td /F1 12.0 Tf  [(with assessment marks.)] TJ ET
+BT 34.016 237.178 Td /F2 12.0 Tf  [(Technical Fail)] TJ ET
+BT 34.016 219.322 Td /F1 12.0 Tf  [(To be eligible for a Pass in this subject a student must achieve a mark of at least 40% in the final )] TJ ET
+BT 34.016 201.502 Td /F1 12.0 Tf  [(examination )] TJ ET
+BT 96.344 201.502 Td /F4 12.0 Tf  [(\(24 marks or above\))] TJ ET
+BT 193.988 201.502 Td /F1 12.0 Tf  [(. Students who fail to achieve this minimum mark & would have otherwise )] TJ ET
+BT 34.016 183.682 Td /F1 12.0 Tf  [(passed may be given a TF \(Technical Fail\) for this subject.)] TJ ET
+BT 34.016 165.862 Td /F1 12.0 Tf  [( )] TJ ET
+BT 34.016 148.042 Td /F2 12.0 Tf  [(Supplementary Exams)] TJ ET
+BT 34.016 130.222 Td /F1 12.0 Tf  [(1. A student whose overall performance results in a TF will only be granted a supplementary assessment task )] TJ ET
+BT 34.016 112.258 Td /F1 12.0 Tf  [(\(e.g. a supplementary exam or a supplementary assignment\) if approved by the school assessment committee.)] TJ ET
+BT 34.016 76.402 Td /F1 12.0 Tf  [(2. A student who achieves a mark of 48-49% will normally be eligible for a grade of WS and a )] TJ ET
+BT 34.016 58.582 Td /F1 12.0 Tf  [(supplementary exam organised by the University.  In this case, the maximum grade attainable is PS \(Pass )] TJ ET
+BT 34.016 40.618 Td /F1 12.0 Tf  [(Supplementary\) and a mark of 50%.)] TJ ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 35 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 2643 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.6 w 0 J [  ] 0 d
+BT 34.016 793.474 Td /F1 12.0 Tf  [(3. A student who has successfully applied for academic consideration will receive either:)] TJ ET
+BT 34.016 757.618 Td /F1 12.0 Tf  [(   a. A WD  - Withheld Deferred Exam -  and be allowed to sit only a supplementary exam, which will be )] TJ ET
+BT 34.016 739.654 Td /F1 12.0 Tf  [(supervised by the University or)] TJ ET
+BT 34.016 703.798 Td /F1 12.0 Tf  [(   b. A WH ? Withheld ? and be allowed to sit a supplementary exam not supervised by the University or )] TJ ET
+BT 34.016 685.834 Td /F1 12.0 Tf  [(complete some other supplementary task)] TJ ET
+BT 34.016 649.978 Td /F1 12.0 Tf  [(4. If a student is being investigated for misconduct and the investigation cannot be completed before the )] TJ ET
+BT 34.016 632.158 Td /F1 12.0 Tf  [(grades are released the student will receive a grade of WH until a mark is declared.)] TJ ET
+BT 34.016 614.338 Td /F1 12.0 Tf  [(Calculators will not be allowed in the final exam.)] TJ ET
+34.016 584.518 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 587.369 Td /F2 12.0 Tf  [(Procedure for the return of assessment items: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 558.262 Td /F1 12.0 Tf  [(All assignments will be returned within 2 weeks of their submission.)] TJ ET
+BT 34.016 540.442 Td /F1 12.0 Tf  [(The enquiries about the assignment marks can only be made to the tutors during laboratory class times or to )] TJ ET
+BT 34.016 522.622 Td /F1 12.0 Tf  [(the lecturer during the lecturer?s office hours. The enquiries about the assignment marks can only be made )] TJ ET
+BT 34.016 504.802 Td /F1 12.0 Tf  [(in a period of time of maximum 2 weeks after the evaluation of an assignment is published. After 2 week of )] TJ ET
+BT 34.016 486.982 Td /F1 12.0 Tf  [(?enquiry period?, no more marks will be changed.  The assignment marks will be available on SOLS on the )] TJ ET
+BT 34.016 469.162 Td /F1 12.0 Tf  [(assignment return day.)] TJ ET
+34.016 439.342 527.249 14.256 re f
+1.000 1.000 1.000 rg
+BT 34.016 442.193 Td /F2 12.0 Tf  [(Penalties for late submission of assessment items: )] TJ ET
+0.000 0.000 0.000 rg
+BT 34.016 413.086 Td /F1 12.0 Tf  [(Penalties apply to all late work, except if student academic consideration has been granted. Late submissions )] TJ ET
+BT 34.016 395.122 Td /F1 12.0 Tf  [(will attract a penalty of 25% of the assessment mark.)] TJ ET
+BT 34.016 359.122 Td /F1 12.0 Tf  [(This amount is per day including weekends.  )] TJ ET
+BT 34.016 323.266 Td /F1 12.0 Tf  [(Work more than 3 days late will be awarded a mark of zero.)] TJ ET
+BT 34.016 305.446 Td /F1 12.0 Tf  [( )] TJ ET
+endstream
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000008 00000 n 
+0000000073 00000 n 
+0000000119 00000 n 
+0000000354 00000 n 
+0000000383 00000 n 
+0000000514 00000 n 
+0000000603 00000 n 
+0000012788 00000 n 
+0000012897 00000 n 
+0000013005 00000 n 
+0000013133 00000 n 
+0000013236 00000 n 
+0000013363 00000 n 
+0000013445 00000 n 
+0000013510 00000 n 
+0000014901 00000 n 
+0000014985 00000 n 
+0000025779 00000 n 
+0000025887 00000 n 
+0000026014 00000 n 
+0000026133 00000 n 
+0000026198 00000 n 
+0000038336 00000 n 
+0000038427 00000 n 
+0000045799 00000 n 
+0000045910 00000 n 
+0000046037 00000 n 
+0000046129 00000 n 
+0000046256 00000 n 
+0000046399 00000 n 
+0000046464 00000 n 
+0000065523 00000 n 
+0000065588 00000 n 
+0000070643 00000 n 
+0000070708 00000 n 
+trailer
+<<
+/Size 36
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+73404
+%%EOF
