@@ -1,0 +1,16 @@
+> set HEADING OFF
+> set FEEDBACK OFF
+> CREATE TABLE MESSAGES(
+  MNUMBER NUMBER(2),
+  MTEXT VARCHAR(11)
+)
+> INSERT INTO MESSAGES VALUES(0, 'like ')
+> INSERT INTO MESSAGES VALUES(1, 'don''t like ')
+> COMMIT
+> SELECT 'I ', MTEXT, ' you ', user, ' !'
+FROM MESSAGES, DUAL
+WHERE MNUMBER = MOD(TO_NUMBER(TO_CHAR(SYSDATE, 'SS')), 2)
+I   like         you  JM617                           !  
+
+> DROP TABLE MESSAGES PURGE
+> spool off

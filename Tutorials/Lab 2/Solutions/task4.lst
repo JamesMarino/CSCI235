@@ -1,0 +1,117 @@
+SQL> 
+SQL> SET HEADING ON;
+SQL> SET PAGESIZE 2;
+SQL> SET LINESIZE 20;
+SQL> 
+SQL> ttitle "TASK 4";
+SQL> 
+SQL> CREATE TABLE MESSAGES(
+  2    MTEXT VARCHAR(80)
+  3  );
+
+Table created.
+
+SQL> 
+SQL> INSERT INTO MESSAGES VALUES('Start SQL*Plus client on XP system');
+
+1 row created.
+
+SQL> 
+SQL> COMMIT;
+
+Commit complete.
+
+SQL> 
+SQL> SELECT MTEXT
+  2  FROM MESSAGES;
+
+Tue Mar 15 page    1
+       TASK 4
+
+Start SQL*Plus clien
+
+Tue Mar 15 page    2
+       TASK 4
+
+t on XP system      
+
+Tue Mar 15 page    3
+       TASK 4
+
+                    
+
+SQL> 
+SQL> SELECT MTEXT || MTEXT
+  2  FROM MESSAGES;
+
+Tue Mar 15 page    1
+       TASK 4
+
+Start SQL*Plus clien
+
+Tue Mar 15 page    2
+       TASK 4
+
+t on XP systemStart 
+
+Tue Mar 15 page    3
+       TASK 4
+
+SQL*Plus client on X
+
+Tue Mar 15 page    4
+       TASK 4
+
+P system            
+
+Tue Mar 15 page    5
+       TASK 4
+
+                    
+
+SQL> 
+SQL> SELECT MTEXT || MTEXT || MTEXT
+  2  FROM MESSAGES;
+
+Tue Mar 15 page    1
+       TASK 4
+
+Start SQL*Plus clien
+
+Tue Mar 15 page    2
+       TASK 4
+
+t on XP systemStart 
+
+Tue Mar 15 page    3
+       TASK 4
+
+SQL*Plus client on X
+
+Tue Mar 15 page    4
+       TASK 4
+
+P systemStart SQL*Pl
+
+Tue Mar 15 page    5
+       TASK 4
+
+us client on XP syst
+
+Tue Mar 15 page    6
+       TASK 4
+
+em                  
+
+Tue Mar 15 page    7
+       TASK 4
+
+                    
+
+SQL> 
+SQL> DROP TABLE MESSAGES PURGE;
+
+Table dropped.
+
+SQL> 
+SQL> spool off

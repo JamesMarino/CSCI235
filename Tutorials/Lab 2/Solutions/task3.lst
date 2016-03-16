@@ -1,0 +1,18 @@
+> set HEADING OFF
+> set FEEDBACK ON
+
+> ACCEPT A NUMBER PROMPT 'ENTER THE FIRST NUMBER>'
+> ACCEPT B NUMBER PROMPT 'ENTER THE SECOND NUMBER>'
+> ACCEPT C NUMBER PROMPT 'ENTER THE THIRD NUMBER>'
+
+> SELECT '&A + &B + &C=', &A + &B + &C
+FROM DUAL
+old:SELECT '&A + &B + &C=', &A + &B + &C
+FROM DUAL
+new:SELECT '5 + 20 + 30=', 5 + 20 + 30
+FROM DUAL
+5 + 20 + 30=         55 
+
+ 1 rows selected 
+
+> spool off
