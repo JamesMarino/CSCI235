@@ -1,68 +1,66 @@
 CREATE TABLE Project (
-	ProjectNumber int NOT NULL,
-	SponserName VARCHAR(70) NOT NULL,
+	ProjectNumber INTEGER NOT NULL,
+	SponserName VARCHAR(10) NOT NULL,
 	StartDate Date NOT NULL,
 	EndDate Date NOT NULL,
-	StaffNumber int NOT NULL,
-  Budget VARCHAR(70) NOT NULL,
+  Budget FLOAT NOT NULL,
+  
+	StaffNumber INTEGER NOT NULL,
 
 	CONSTRAINT Project_PKey1 PRIMARY KEY(ProjectNumber)
 );
 
 CREATE TABLE Staff(
-	StaffNumber int NOT NULL,
+	StaffNumber INTEGER NOT NULL,
 	StaffName VARCHAR(70) NOT NULL,
 	DateOfBirth Date NOT NULL,
-	LevelOfPosition int NOT NULL,
+	LevelOfPosition VARCHAR(70) NOT NULL,
 	WorkDepartment VARCHAR(70) NOT NULL,
 
 	CONSTRAINT Staff_PKey1 PRIMARY KEY(StaffNumber)
 );
 
-CREATE TABLE StaffProject(
-  StaffProjectNumber int NOT NULL,
-  ProjectNumber int NOT NULL,
-  StaffNumber int NOT NULL,
-  
-  CONSTRAINT StaffProject_PKey1 PRIMARY KEY(StaffProjectNumber)
-);
-
 CREATE TABLE Department(
   DepartmentName VARCHAR(70) NOT NULL,
   MainOffice VARCHAR(70) NOT NULL,
-  DepartmentHeader VARCHAR(70) NOT NULL,
+  HeadOfDepartment VARCHAR(70) NOT NULL,
   
-  StaffNumber int NOT NULL,
+  StaffNumber INTEGER NOT NULL,
   
   CONSTRAINT Department_PKey1 PRIMARY KEY(DepartmentName)
 );
 
-CREATE TABLE StaffDepartment(
-  StaffDepartmentNumber int NOT NULL,
-  StaffTimePercentage float NOT NULL,
-  StaffNumber int NOT NULL,
-  DepartmentName VARCHAR(70) NOT NULL,
-  
-  CONSTRAINT StaffDepartment_PKey1 PRIMARY KEY(StaffDepartmentNumber)
-);
-
 CREATE TABLE Student(
-  StudentNumber int NOT NULL,
+  StudentNumber INTEGER NOT NULL,
   StudentName VARCHAR(70) NOT NULL,
   DateOfBirth Date NOT NULL,
-  DegreeProgram VARCHAR(70) NOT NULL,
+  DegreeProgram VARCHAR(10) NOT NULL,
   
   CONSTRAINT Student_PKey1 PRIMARY KEY(StudentNumber)
 );
 
+CREATE TABLE StaffProject(
+  ProjectNumber INTEGER NOT NULL,
+  StaffNumber INTEGER NOT NULL,
+  
+  CONSTRAINT StaffProject_PKey1 PRIMARY KEY(ProjectNumber, StaffNumber)
+);
+
+CREATE TABLE StaffDepartment(
+  StaffNumber INTEGER NOT NULL,
+  DepartmentName VARCHAR(70) NOT NULL,
+  StaffTimePercentage FLOAT NOT NULL, 
+  
+  CONSTRAINT StaffDepartment_PKey1 PRIMARY KEY(StaffNumber, DepartmentName)
+);
+
 CREATE TABLE StudentProject(
-  StudentProjectID int NOT NULL,
-  StudentNumber int NOT NULL,
-  ProjectNumber int NOT NULL,
-  StaffNumber int NOT NULL,
+  StudentNumber INTEGER NOT NULL,
+  ProjectNumber INTEGER NOT NULL,
+  StaffNumber INTEGER NOT NULL,
   Supervisor VARCHAR(70) NOT NULL,
   
-  CONSTRAINT StudentProject_PKey1 PRIMARY KEY(StudentProjectID)
+  CONSTRAINT StudentProject_PKey1 PRIMARY KEY(StudentNumber, ProjectNumber, StaffNumber)
 );
 
 ALTER TABLE Project
