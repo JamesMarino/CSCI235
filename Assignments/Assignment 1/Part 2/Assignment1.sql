@@ -36,14 +36,16 @@ CREATE TABLE Student(
   DateOfBirth Date NOT NULL,
   DegreeProgram VARCHAR(10) NOT NULL,
   
+  DepartmentName VARCHAR(70) NOT NULL,
+  
   CONSTRAINT Student_PKey1 PRIMARY KEY(StudentNumber)
 );
 
 CREATE TABLE StaffProject(
-  ProjectNumber INTEGER NOT NULL,
   StaffNumber INTEGER NOT NULL,
+  ProjectNumber INTEGER NOT NULL,
   
-  CONSTRAINT StaffProject_PKey1 PRIMARY KEY(ProjectNumber, StaffNumber)
+  CONSTRAINT StaffProject_PKey1 PRIMARY KEY(StaffNumber, ProjectNumber)
 );
 
 CREATE TABLE StaffDepartment(
@@ -65,15 +67,15 @@ CREATE TABLE StudentProject(
 
 ALTER TABLE Project
   ADD CONSTRAINT Project_Fkey1 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
+  
+ALTER TABLE Student
+  ADD CONSTRAINT Student_Fkey1 FOREIGN KEY(DepartmentName) REFERENCES Department(DepartmentName);
 
 ALTER TABLE StaffProject
   ADD CONSTRAINT StaffProject_Fkey1 FOREIGN KEY(ProjectNumber) REFERENCES Project(ProjectNumber);
   
 ALTER TABLE StaffProject
   ADD CONSTRAINT StaffProject_Fkey2 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
-
-ALTER TABLE Department
-  ADD CONSTRAINT Department_Fkey1 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
   
 ALTER TABLE StaffDepartment
   ADD CONSTRAINT StaffDepartment_Fkey1 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
