@@ -1,0 +1,133 @@
+SQL> @Assignment1.sql
+SQL> CREATE TABLE Project (
+  2  	     ProjectNumber INTEGER NOT NULL,
+  3  	     SponserName VARCHAR(10) NOT NULL,
+  4  	     StartDate Date NOT NULL,
+  5  	     EndDate Date NOT NULL,
+  6    Budget FLOAT NOT NULL,
+  7  	     StaffNumber INTEGER NOT NULL,
+  8  	     CONSTRAINT Project_PKey1 PRIMARY KEY(ProjectNumber)
+  9  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE Staff(
+  2  	     StaffNumber INTEGER NOT NULL,
+  3  	     StaffName VARCHAR(70) NOT NULL,
+  4  	     DateOfBirth Date NOT NULL,
+  5  	     LevelOfPosition VARCHAR(70) NOT NULL,
+  6  	     WorkDepartment VARCHAR(70) NOT NULL,
+  7  	     CONSTRAINT Staff_PKey1 PRIMARY KEY(StaffNumber)
+  8  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE Department(
+  2    DepartmentName VARCHAR(70) NOT NULL,
+  3    MainOffice VARCHAR(70) NOT NULL,
+  4    HeadOfDepartment VARCHAR(70) NOT NULL,
+  5    StaffNumber INTEGER NOT NULL,
+  6    CONSTRAINT Department_PKey1 PRIMARY KEY(DepartmentName)
+  7  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE Student(
+  2    StudentNumber INTEGER NOT NULL,
+  3    StudentName VARCHAR(70) NOT NULL,
+  4    DateOfBirth Date NOT NULL,
+  5    DegreeProgram VARCHAR(10) NOT NULL,
+  6    DepartmentName VARCHAR(70) NOT NULL,
+  7    CONSTRAINT Student_PKey1 PRIMARY KEY(StudentNumber)
+  8  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE StaffProject(
+  2    StaffNumber INTEGER NOT NULL,
+  3    ProjectNumber INTEGER NOT NULL,
+  4    CONSTRAINT StaffProject_PKey1 PRIMARY KEY(StaffNumber, ProjectNumber)
+  5  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE StaffDepartment(
+  2    StaffNumber INTEGER NOT NULL,
+  3    DepartmentName VARCHAR(70) NOT NULL,
+  4    StaffTimePercentage FLOAT NOT NULL,
+  5    CONSTRAINT StaffDepartment_PKey1 PRIMARY KEY(StaffNumber, DepartmentName)
+  6  );
+
+Table created.
+
+SQL> 
+SQL> CREATE TABLE StudentProject(
+  2    StudentNumber INTEGER NOT NULL,
+  3    ProjectNumber INTEGER NOT NULL,
+  4    StaffNumber INTEGER NOT NULL,
+  5    Supervisor VARCHAR(70) NOT NULL,
+  6    CONSTRAINT StudentProject_PKey1 PRIMARY KEY(StudentNumber, ProjectNumber, StaffNumber)
+  7  );
+
+Table created.
+
+SQL> 
+SQL> ALTER TABLE Project
+  2    ADD CONSTRAINT Project_Fkey1 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE Student
+  2    ADD CONSTRAINT Student_Fkey1 FOREIGN KEY(DepartmentName) REFERENCES Department(DepartmentName);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StaffProject
+  2    ADD CONSTRAINT StaffProject_Fkey1 FOREIGN KEY(ProjectNumber) REFERENCES Project(ProjectNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StaffProject
+  2    ADD CONSTRAINT StaffProject_Fkey2 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StaffDepartment
+  2    ADD CONSTRAINT StaffDepartment_Fkey1 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StaffDepartment
+  2    ADD CONSTRAINT StaffDepartment_Fkey2 FOREIGN KEY(DepartmentName) REFERENCES Department(DepartmentName);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StudentProject
+  2    ADD CONSTRAINT StudentProject_Fkey1 FOREIGN KEY(StudentNumber) REFERENCES Student(StudentNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StudentProject
+  2    ADD CONSTRAINT StudentProject_Fkey2 FOREIGN KEY(ProjectNumber) REFERENCES Project(ProjectNumber);
+
+Table altered.
+
+SQL> 
+SQL> ALTER TABLE StudentProject
+  2    ADD CONSTRAINT StudentProject_Fkey3 FOREIGN KEY(StaffNumber) REFERENCES Staff(StaffNumber);
+
+Table altered.
+
+SQL> SPOOL OFF
