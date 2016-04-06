@@ -1,0 +1,34 @@
+SQL> -- Question 1
+SQL> SELECT P#, PTITLE FROM POSITION WHERE P# IN (
+  SELECT P# FROM SNEEDED WHERE
+    SNEEDED.SNAME = 'COOKING'
+    AND
+    SNEEDED.SKILLLEVEL > 5
+);
+
+        P# PTITLE                       
+---------- ------------------------------
+         1 LECTURER                      
+         5 PROFESSOR                     
+         7 PROFESSOR                     
+
+SQL> -- Question 2
+SQL> SELECT LSKILL.SKILL FROM LSKILL WHERE LSKILL.SKILL NOT IN (
+  SELECT SPOSSESSED.SNAME FROM SPOSSESSED
+);
+
+SKILL                        
+------------------------------
+DATABASE ADMIN.               
+INFORMATION SYST. ADMIN       
+NETWORK ADMIN.                
+
+SQL> -- Question 3
+SQL> SELECT SNAME FROM SNEEDED GROUP BY SNAME HAVING COUNT(P#) > 3;
+
+SNAME                        
+------------------------------
+COOKING                       
+SQL PROGRAMMING               
+
+SQL> SPOOL OFF;

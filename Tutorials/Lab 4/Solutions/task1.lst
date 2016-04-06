@@ -1,0 +1,55 @@
+SQL> -- Question 1
+SQL> SELECT DISTINCT CITY FROM DEPTLOC;
+
+CITY        
+-------------
+LOS ANGELES  
+SAN FRANCISCO
+PARIS        
+NEW YORK     
+BOSTON       
+CHICAGO      
+DALLAS       
+
+ 7 rows selected 
+
+SQL> -- Question 2
+SQL> SELECT DNAME, BUDGET FROM DEPARTMENT ORDER BY BUDGET ASC;
+
+DNAME              BUDGET
+-------------- ----------
+ACCOUNTING            200
+TRANSPORT             200
+RESEARCH              300
+SALES                 400
+IT                    500
+OPERATIONS               
+
+ 6 rows selected 
+
+SQL> -- Question 3
+SQL> SELECT ENAME, HIREDATE FROM EMPLOYEE WHERE HIREDATE BETWEEN '01/JAN/1980' AND '31/DEC/1990';
+
+ENAME      HIREDATE
+---------- ---------
+KING       17/NOV/90
+BLAKE      01/MAY/81
+CLARK      09/JUN/81
+SCOTT      09/DEC/82
+FORD       03/DEC/81
+ALLEN      20/FEB/81
+ALLEN      20/FEB/81
+WARD       22/FEB/81
+MARTIN     28/SEP/81
+TURNER     08/SEP/81
+JAMES      03/DEC/81
+
+ENAME      HIREDATE
+---------- ---------
+ADAMS      12/JAN/83
+SMITH      17/DEC/80
+HILL       23/DEC/80
+
+ 14 rows selected 
+
+SQL> SPOOL OFF;

@@ -1,0 +1,154 @@
+SQL> -- Question 1
+SQL> SELECT APPLICANT.FNAME || ' ' || APPLICANT.LNAME AS "Full Name", SPOSSESSED.SNAME FROM APPLICANT LEFT OUTER JOIN SPOSSESSED ON APPLICANT.A# = SPOSSESSED.A#;
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+PETER JONES                                         
+C PROGRAMMING                 
+
+PETER JONES                                         
+COOKING                       
+
+PETER JONES                                         
+JAVA PROGRAMMING              
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+JOHN BLACK                                          
+JAVA PROGRAMMING              
+
+JOHN BLACK                                          
+TRUCK DRIVING                 
+
+MARY WHITE                                          
+C++ PROGRAMMING               
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+MARY WHITE                                          
+JAVA PROGRAMMING              
+
+MARY WHITE                                          
+PAINTING                      
+
+MARGARET FINCH                                      
+SQL PROGRAMMING               
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+GARY KASPAROW                                       
+SQL PROGRAMMING               
+
+CLAUDIA HOFFMAN                                     
+COOKING                       
+
+CLAUDIA HOFFMAN                                     
+SQL PROGRAMMING               
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+STEPHEN STAUNTON                                    
+COOKING                       
+
+STEPHEN STAUNTON                                    
+SQL PROGRAMMING               
+
+JANUSZ GETTA                                        
+COOKING                       
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+JANUSZ GETTA                                        
+DATABASE DESIGN               
+
+JANUSZ GETTA                                        
+PAINTING                      
+
+JANUSZ GETTA                                        
+SQL PROGRAMMING               
+
+
+Full Name
+---------------------------------------------------
+SNAME
+------------------------------
+MICHAEL COLLINS                                     
+                              
+
+JOSEPH STAUNTON                                     
+                              
+
+
+ 20 rows selected 
+
+SQL> -- Question 2
+SQL> SELECT S.SKILL, P.PTITLE FROM LSKILL S
+LEFT JOIN SNEEDED SN ON S.SKILL = SN.SNAME
+LEFT JOIN POSITION P ON P.P# = SN.P#;
+
+SKILL                          PTITLE                       
+------------------------------ ------------------------------
+SQL PROGRAMMING                LECTURER                      
+JAVA PROGRAMMING               LECTURER                      
+COOKING                        LECTURER                      
+C PROGRAMMING                  LECTURER                      
+TRUCK DRIVING                  LECTURER                      
+JAVA PROGRAMMING               LECTURER                      
+DATABASE DESIGN                LECTURER                      
+PAINTING                       SENIOR LECTURER               
+JAVA PROGRAMMING               SENIOR LECTURER               
+C++ PROGRAMMING                SENIOR LECTURER               
+SQL PROGRAMMING                ASSOC. PROFESSOR              
+
+SKILL                          PTITLE                       
+------------------------------ ------------------------------
+SQL PROGRAMMING                PROFESSOR                     
+PAINTING                       PROFESSOR                     
+COOKING                        PROFESSOR                     
+COOKING                        PROFESSOR                     
+SQL PROGRAMMING                PROFESSOR                     
+PAINTING                       PROFESSOR                     
+COOKING                        PROFESSOR                     
+NETWORK ADMIN.                                               
+INFORMATION SYST. ADMIN                                      
+DATABASE ADMIN.                                              
+
+ 21 rows selected 
+
+SQL> -- Question 3
+SQL> SELECT APPLICANT.FNAME, COUNT(SPOSSESSED.SNAME) FROM APPLICANT LEFT OUTER JOIN SPOSSESSED ON
+APPLICANT.A# = SPOSSESSED.A# GROUP BY APPLICANT.FNAME;
+
+FNAME                                COUNT(SPOSSESSED.SNAME)
+-------------------- ---------------------------------------
+PETER                                                      3
+JOSEPH                                                     0
+MARGARET                                                   1
+MICHAEL                                                    0
+STEPHEN                                                    2
+JANUSZ                                                     4
+MARY                                                       3
+GARY                                                       1
+JOHN                                                       2
+CLAUDIA                                                    2
+
+ 10 rows selected 
+
+SQL> SPOOL OFF;

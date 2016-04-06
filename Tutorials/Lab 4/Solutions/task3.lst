@@ -1,0 +1,39 @@
+SQL> -- Question 1
+SQL> SELECT COUNT(ENAME), CITY FROM EMPLOYEE GROUP BY CITY;
+
+                           COUNT(ENAME) CITY        
+--------------------------------------- -------------
+                                      2 LOS ANGELES  
+                                      2 PARIS        
+                                     10 NEW YORK     
+                                      4 BOSTON       
+                                      1 CHICAGO      
+                                      1 DALLAS       
+
+ 6 rows selected 
+
+SQL> -- Question 2
+SQL> SELECT DNAME FROM(
+SELECT DNAME, CITY FROM DEPTLOC)
+GROUP BY DNAME
+HAVING COUNT(DNAME) > 2;
+
+DNAME        
+--------------
+RESEARCH      
+SALES         
+
+SQL> -- Question 3
+SQL> SELECT DNAME FROM(
+SELECT DNAME, CITY FROM DEPTLOC)
+GROUP BY DNAME
+HAVING COUNT(DNAME) < 2;
+
+DNAME        
+--------------
+ACCOUNTING    
+IT            
+OPERATIONS    
+TRANSPORT     
+
+SQL> SPOOL OFF;

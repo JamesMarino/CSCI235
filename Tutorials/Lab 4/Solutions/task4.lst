@@ -1,0 +1,43 @@
+SQL> -- Question 1
+SQL> SELECT DEPARTMENT.DNAME, DEPARTMENT.BUDGET, DEPTLOC.CITY, DEPTLOC.STREET#, DEPTLOC.BLDG#, DEPTLOC.LEVEL#
+FROM DEPTLOC JOIN DEPARTMENT ON DEPARTMENT.DNAME = DEPTLOC.DNAME;
+
+DNAME              BUDGET CITY             STREET#      BLDG#     LEVEL#
+-------------- ---------- ------------- ---------- ---------- ----------
+ACCOUNTING            200 NEW YORK              30        123         99
+IT                    500 SAN FRANCISCO         35         45         80
+OPERATIONS                BOSTON                45         34         10
+RESEARCH              300 BOSTON                20         20          1
+RESEARCH              300 DALLAS                23        100         88
+RESEARCH              300 LOS ANGELES           30         30          1
+RESEARCH              300 NEW YORK              30        123         99
+SALES                 400 BOSTON                29        999         34
+SALES                 400 CHICAGO               34          1         90
+SALES                 400 DALLAS                34          1          6
+SALES                 400 LOS ANGELES           35          1         99
+
+DNAME              BUDGET CITY             STREET#      BLDG#     LEVEL#
+-------------- ---------- ------------- ---------- ---------- ----------
+SALES                 400 NEW YORK              30        123         99
+SALES                 400 NEW YORK              34          7         33
+SALES                 400 PARIS                 19         77         34
+TRANSPORT             200 NEW YORK              34         56         23
+
+ 15 rows selected 
+
+SQL> -- Question 2
+SQL> SELECT DEPARTMENT.DNAME, PROJECT.TITLE
+FROM DEPARTMENT JOIN DP ON DEPARTMENT.DNAME = DP.DNAME
+JOIN PROJECT ON DP.P# = PROJECT.P#;
+
+no rows selected
+
+
+SQL> -- Question 3
+SQL> SELECT DEPARTMENT.DNAME, DEPARTMENT.BUDGET, DEPARTMENT.CHAIRMAN, PROJECT.TITLE, PROJECT.BUDGET, PROJECT.STARTD, PROJECT.ENDD
+FROM DEPARTMENT JOIN DP ON DEPARTMENT.DNAME = DP.DNAME JOIN PROJECT ON DP.P# = PROJECT.P#;
+
+no rows selected
+
+
+SQL> SPOOL OFF;

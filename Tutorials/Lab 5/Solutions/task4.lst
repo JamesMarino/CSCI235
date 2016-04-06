@@ -1,0 +1,70 @@
+SQL> -- Question 1
+SQL> SELECT PTITLE FROM POSITION P WHERE EXISTS (
+  SELECT APPLIES.P# FROM APPLIES WHERE APPLIES.P# = P.P#
+);
+
+PTITLE                       
+------------------------------
+LECTURER                      
+PROFESSOR                     
+LECTURER                      
+PROFESSOR                     
+SENIOR LECTURER               
+ASSOC. PROFESSOR              
+PROFESSOR                     
+
+ 7 rows selected 
+
+SQL> -- Question 2
+SQL> SELECT FNAME, LNAME FROM APPLICANT APP WHERE EXISTS (
+  SELECT APPLIES.P# FROM APPLIES WHERE APPLIES.A# = APP.A#
+);
+
+FNAME                LNAME                        
+-------------------- ------------------------------
+PETER                JONES                         
+JOHN                 BLACK                         
+MARY                 WHITE                         
+MICHAEL              COLLINS                       
+MARGARET             FINCH                         
+GARY                 KASPAROW                      
+CLAUDIA              HOFFMAN                       
+STEPHEN              STAUNTON                      
+JOSEPH               STAUNTON                      
+JANUSZ               GETTA                         
+
+ 10 rows selected 
+
+SQL> -- Question 3
+SQL> SELECT CTITLE FROM COURSEPASSED WHERE EXISTS (
+  SELECT A# FROM APPLICANT WHERE EXISTS (
+    SELECT A# FROM APPLIES WHERE EXISTS (
+      SELECT P# FROM POSITION WHERE EXISTS (
+        SELECT P# FROM SNEEDED WHERE (
+          COURSEPASSED.A# = APPLICANT.A#
+          AND
+          APPLICANT.A# = APPLIES.A#
+          AND
+          APPLIES.P# = POSITION.P#
+          AND
+          POSITION.P# = SNEEDED.P# 
+          AND
+          SNEEDED.SNAME = 'C PROGRAMMING'
+        )
+      )
+    )
+  )
+);
+
+CTITLE                                           
+--------------------------------------------------
+ADVANCED JAVA                                     
+C PROGRAMMING                                     
+COOKING                                           
+JAVA PROGRAMMING                                  
+JAVA PROGRAMMING                                  
+TRUCK DRIVING                                     
+
+ 6 rows selected 
+
+SQL> SPOOL OFF;
