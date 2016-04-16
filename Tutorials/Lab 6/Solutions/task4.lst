@@ -1,0 +1,51 @@
+SQL> SET LINESIZE 1000
+SQL> SET PAGESIZE 1000
+SQL> -- Question 1 - CHECK THIS
+SQL> CREATE OR REPLACE VIEW VAPPS (P#, TOTAP) AS (
+  SELECT POSITION.P#, COUNT(APPLIES.A#) FROM POSITION JOIN APPLIES ON POSITION.P# = APPLIES.A# GROUP BY POSITION.P#
+);
+
+View VAPPS created.
+
+SQL> SELECT PTITLE, SALARY FROM POSITION JOIN VAPPS ON POSITION.P# = VAPPS.P# WHERE VAPPS.TOTAP >= 1;
+
+PTITLE                             SALARY
+------------------------------ ----------
+LECTURER                            45000
+SENIOR LECTURER                     50000
+PROFESSOR                           80000
+PROFESSOR                           80000
+ASSOC. PROFESSOR                    60000
+PROFESSOR                           80000
+LECTURER                           450000
+
+ 7 rows selected 
+
+SQL> -- Question 2
+SQL> CREATE OR REPLACE VIEW MORE_THAN_ONE_APP AS (
+  SELECT * FROM APPLICANT A1 WHERE
+    (SELECT COUNT(*) FROM APPLIES A2 WHERE A1.A# = A2.A# GROUP BY A2.A#) > 1
+);
+
+View MORE_THAN_ONE_APP created.
+
+SQL> GRANT SELECT ON MORE_THAN_ONE_APP TO SCOTT;
+
+Error starting at line : 20 in command -
+GRANT SELECT ON MORE_THAN_ONE_APP TO SCOTT
+Error report -
+SQL Error: ORA-01917: user or role 'SCOTT' does not exist
+01917. 00000 -  "user or role '%s' does not exist"
+*Cause:    There is not a user or role by that name.
+*Action:   Re-specify the name.
+SQL> -- Question 3
+SQL> GRANT REFERENCES (A#) ON APPLIES TO SCOTT;
+
+Error starting at line : 23 in command -
+GRANT REFERENCES (A#) ON APPLIES TO SCOTT
+Error report -
+SQL Error: ORA-01917: user or role 'SCOTT' does not exist
+01917. 00000 -  "user or role '%s' does not exist"
+*Cause:    There is not a user or role by that name.
+*Action:   Re-specify the name.
+SQL> SPOOL OFF;

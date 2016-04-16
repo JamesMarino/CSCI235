@@ -1,0 +1,33 @@
+SQL> SET LINESIZE 1000
+SQL> SET PAGESIZE 1000
+SQL> -- Question 1
+SQL> SELECT FNAME || ' ' || LNAME AS "FULL NAME" FROM APPLICANT WHERE APPLICANT.A# = ANY
+  (SELECT A# FROM APPLIES A1 WHERE A1.APPDATE < ALL 
+    (SELECT APPDATE FROM APPLIES A2 WHERE A2.A# = 1
+  )
+);
+
+FULL NAME                                         
+---------------------------------------------------
+MARGARET FINCH                                     
+GARY KASPAROW                                      
+CLAUDIA HOFFMAN                                    
+JANUSZ GETTA                                       
+
+SQL> -- Question 2
+SQL> SELECT PTITLE FROM POSITION WHERE SALARY >= ALL (
+  SELECT SALARY FROM POSITION
+);
+
+PTITLE                       
+------------------------------
+LECTURER                      
+
+SQL> -- Question 3
+SQL> SELECT FNAME || ' ' || LNAME AS "FULL NAME", MAX(APPDATE) FROM APPLICANT JOIN APPLIES ON APPLICANT.A# = APPLIES.A#
+GROUP BY FNAME || ' ' || LNAME HAVING MAX(APPDATE) < ALL (SELECT APPDATE FROM APPLIES WHERE A# = 7);
+
+no rows selected
+
+
+SQL> SPOOL OFF;
