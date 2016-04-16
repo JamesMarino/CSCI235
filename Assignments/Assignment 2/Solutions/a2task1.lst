@@ -1,0 +1,168 @@
+SQL> SET LINESIZE 300
+SQL> /*
+ * Task 1
+ */
+SQL> ---------------
+SQL> -- Task 1.1. --
+SQL> ---------------
+SQL> ALTER TABLE DEPARTMENT ADD CONSTRAINT FK_DepartmentManager
+  FOREIGN KEY (MANAGER#) REFERENCES EMPLOYEE(E#);
+
+Table DEPARTMENT altered.
+
+SQL> -- Diable foreign key in order to insert
+SQL> ALTER TABLE DEPARTMENT DISABLE CONSTRAINT FK_DepartmentManager;
+
+Table DEPARTMENT altered.
+
+SQL> INSERT INTO DEPARTMENT VALUES (
+  6,
+  'Research Centre',
+  '00271',
+  TO_DATE('01/06/2016', 'DD/MM/YYYY')
+);
+
+1 row inserted.
+
+SQL> INSERT INTO DEPTLOCATION VALUES (
+  6,
+  '3 Renovation campus, North Wollongong, NSW 2500'
+);
+
+1 row inserted.
+
+SQL> INSERT INTO EMPLOYEE VALUES (
+  '00271',
+  'Garret',
+  TO_DATE('10/04/1980', 'DD/MM/YYYY'),
+  '13 Hindmarsh Ave, North Wollongong, NSW 2500',
+  'M',
+  '125.2',
+  '00100',
+  6
+);
+
+1 row inserted.
+
+SQL> ALTER TABLE DEPARTMENT ENABLE CONSTRAINT FK_DepartmentManager;
+
+Table DEPARTMENT altered.
+
+SQL> ---------------
+SQL> -- Task 1.2. --
+SQL> ---------------
+SQL> ALTER TABLE WORKSON ADD CONSTRAINT
+  WorksOnCheckHours CHECK (HOURS <= 30);
+
+Table WORKSON altered.
+
+SQL> ---------------
+SQL> -- Task 1.3. --
+SQL> ---------------
+SQL> ALTER TABLE PROJECT MODIFY (
+  PTITLE VARCHAR2(50)
+);
+
+Table PROJECT altered.
+
+SQL> ---------------
+SQL> -- Task 1.4. --
+SQL> ---------------
+SQL> ALTER TABLE DEPARTMENT ADD TOTAL_STAFF_NUMBER NUMBER(5);
+
+Table DEPARTMENT altered.
+
+SQL> -- search employee number from department in employee table
+SQL> UPDATE DEPARTMENT SET TOTAL_STAFF_NUMBER = (
+  SELECT COUNT(*) FROM EMPLOYEE WHERE EMPLOYEE.D# = DEPARTMENT.D#
+);
+
+6 rows updated.
+
+SQL> ---------------
+SQL> -- Task 1.5. --
+SQL> ---------------
+SQL> UPDATE DEPTLOCATION SET D# = 3 WHERE D# = 5;
+
+2 rows updated.
+
+SQL> UPDATE EMPLOYEE SET D# = 3 WHERE D# = 5;
+
+2 rows updated.
+
+SQL> UPDATE PROJECT SET D# = 3 WHERE D# = 5;
+
+2 rows updated.
+
+SQL> DELETE FROM DEPARTMENT WHERE D# = 5;
+
+1 row deleted.
+
+SQL> UPDATE DEPARTMENT SET TOTAL_STAFF_NUMBER = (
+  SELECT COUNT(*) FROM EMPLOYEE WHERE EMPLOYEE.D# = 3) WHERE DEPARTMENT.D# = 3;
+
+1 row updated.
+
+SQL> ---------------
+SQL> -- Task 1.6. --
+SQL> ---------------
+SQL> ALTER TABLE DEPENDENT DROP CONSTRAINT Dependent_CK;
+
+Table DEPENDENT altered.
+
+SQL> ALTER TABLE DEPENDENT ADD CONSTRAINT Dependent_CK
+  CHECK (Relationship IN ('SON', 'DAUGHTER', 'SPOUSE', 'MOTHER', 'FATHER', 'OTHER'));
+
+Table DEPENDENT altered.
+
+SQL> ---------------
+SQL> -- Task 1.7. --
+SQL> ---------------
+SQL> ACCEPT DEPARTMENT_NUMBER PROMPT 'Please enter a department number: ';
+SQL> SELECT DEPARTMENT.DNAME, COUNT(PROJECT.P#) AS "Total Projects" FROM DEPARTMENT
+  FULL JOIN PROJECT ON DEPARTMENT.D# = PROJECT.D# WHERE DEPARTMENT.D# = &DEPARTMENT_NUMBER
+  GROUP BY DEPARTMENT.DNAME;
+old:SELECT DEPARTMENT.DNAME, COUNT(PROJECT.P#) AS "Total Projects" FROM DEPARTMENT
+  FULL JOIN PROJECT ON DEPARTMENT.D# = PROJECT.D# WHERE DEPARTMENT.D# = &DEPARTMENT_NUMBER
+  GROUP BY DEPARTMENT.DNAME
+new:SELECT DEPARTMENT.DNAME, COUNT(PROJECT.P#) AS "Total Projects" FROM DEPARTMENT
+  FULL JOIN PROJECT ON DEPARTMENT.D# = PROJECT.D# WHERE DEPARTMENT.D# = 1
+  GROUP BY DEPARTMENT.DNAME
+
+DNAME                                                   Total Projects
+------------------------------ ---------------------------------------
+SALES                                                                1
+
+SQL> ---------------
+SQL> -- Task 1.8. --
+SQL> ---------------
+SQL> ACCEPT PROJECT_NUMBER PROMPT 'Please enter a project number: ';
+SQL> ACCEPT PROJECT_TITLE PROMPT 'Please enter a project title: ';
+SQL> ACCEPT PROJECT_SPONSER PROMPT 'Please enter a sponsor: ';
+SQL> ACCEPT PROJECT_DNUMBER PROMPT 'Please enter a department number: ';
+SQL> ACCEPT PROJECT_BUDGET PROMPT 'Please enter a budget amount: ';
+SQL> INSERT INTO PROJECT VALUES (
+  &PROJECT_NUMBER,
+  '&PROJECT_TITLE',
+  '&PROJECT_SPONSER',
+  &PROJECT_DNUMBER,
+  &PROJECT_BUDGET
+);
+old:INSERT INTO PROJECT VALUES (
+  &PROJECT_NUMBER,
+  '&PROJECT_TITLE',
+  '&PROJECT_SPONSER',
+  &PROJECT_DNUMBER,
+  &PROJECT_BUDGET
+)
+new:INSERT INTO PROJECT VALUES (
+  2001,
+  'My Project',
+  'My Sponsor',
+  1,
+  25000
+)
+
+1 row inserted.
+
+SQL> SPOOL OFF;

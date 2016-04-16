@@ -1,0 +1,161 @@
+SQL> SET LINESIZE 300
+SQL> /*
+ * Task 2
+ */
+SQL> ---------------
+SQL> -- Task 2.1. --
+SQL> ---------------
+SQL> SELECT UNIQUE DEPARTMENT.D#, DEPARTMENT.DNAME FROM DEPARTMENT
+  JOIN DEPTLOCATION ON DEPTLOCATION.D# = DEPARTMENT.D#
+  WHERE UPPER(DEPTLOCATION.Address) LIKE '%WOLLONGONG%';
+
+        D# DNAME                        
+---------- ------------------------------
+         1 SALES                         
+         3 GAMES                         
+         6 Research Centre               
+
+SQL> ---------------
+SQL> -- Task 2.2. --
+SQL> ---------------
+SQL> SELECT DEPARTMENT.D#, DEPARTMENT.DNAME, DEPARTMENT.MANAGER# FROM DEPARTMENT
+  WHERE DEPARTMENT.D# NOT IN (SELECT UNIQUE D# FROM PROJECT);
+
+        D# DNAME                          MANAG
+---------- ------------------------------ -----
+         6 Research Centre                00271
+         4 HUMAN RESOURCES                00200
+         2 ACCOUNTING                     00120
+
+SQL> ---------------
+SQL> -- Task 2.3. --
+SQL> ---------------
+SQL> SELECT DEPARTMENT.D#, DEPARTMENT.DNAME, NVL(SUM(PROJECT.BUDGET), 0) "TOTAL BUDGETS"
+FROM DEPARTMENT FULL JOIN PROJECT ON DEPARTMENT.D# = PROJECT.D#
+GROUP BY DEPARTMENT.D#, DEPARTMENT.DNAME;
+
+        D# DNAME                                                    TOTAL BUDGETS
+---------- ------------------------------ ---------------------------------------
+         1 SALES                                                            50000
+         4 HUMAN RESOURCES                                                      0
+         3 GAMES                                                           400000
+         2 ACCOUNTING                                                           0
+         6 Research Centre                                                      0
+
+SQL> ---------------
+SQL> -- Task 2.4. --
+SQL> ---------------
+SQL> SELECT EMPLOYEE.E#, EMPLOYEE.NAME, EMPLOYEE.D#, NVL(SUM(WORKSON.HOURS), 0) "TOTAL HOURS/W"
+FROM EMPLOYEE FULL JOIN WORKSON ON EMPLOYEE.E# = WORKSON.E# GROUP BY EMPLOYEE.E#, EMPLOYEE.NAME, EMPLOYEE.D#;
+
+E#    NAME                                   D#                           TOTAL HOURS/W
+----- ------------------------------ ---------- ---------------------------------------
+00110 Alvin                                   1                                      10
+00250 Douglass                                3                                      15
+00107 Wendy                                   1                                       0
+00100 Albert                                                                          0
+00200 Carl                                    4                                       0
+00109 Michael                                 1                                       0
+00125 Angela                                  2                                       0
+00150 Bob                                     3                                      10
+00136 Aban                                    4                                       0
+00103 Ami                                     1                                       0
+00101 Peter                                   1                                      20
+
+E#    NAME                                   D#                           TOTAL HOURS/W
+----- ------------------------------ ---------- ---------------------------------------
+00105 Robert                                  3                                      65
+00120 Alice                                   2                                       0
+00187 Eadger                                  3                                      25
+00271 Garret                                  6                                       0
+
+ 15 rows selected 
+
+SQL> ---------------
+SQL> -- Task 2.5. --
+SQL> ---------------
+SQL> SELECT EMPLOYEE.E#, EMPLOYEE.NAME FROM EMPLOYEE WHERE SUPER# = (
+  SELECT E# FROM EMPLOYEE E2 WHERE E2.NAME = 'Alvin'
+);
+
+E#    NAME                         
+----- ------------------------------
+00101 Peter                         
+00103 Ami                           
+00107 Wendy                         
+00109 Michael                       
+
+SQL> ---------------
+SQL> -- Task 2.6. --
+SQL> ---------------
+SQL> SELECT EMPLOYEE.E#, EMPLOYEE.NAME FROM EMPLOYEE WHERE NOT EXISTS (
+  SELECT * FROM DEPENDENT WHERE EMPLOYEE.E# = DEPENDENT.E#
+);
+
+E#    NAME                         
+----- ------------------------------
+00136 Aban                          
+00109 Michael                       
+00271 Garret                        
+00200 Carl                          
+00150 Bob                           
+00101 Peter                         
+00107 Wendy                         
+00105 Robert                        
+00125 Angela                        
+00250 Douglass                      
+00187 Eadger                        
+
+E#    NAME                         
+----- ------------------------------
+00110 Alvin                         
+00103 Ami                           
+
+ 13 rows selected 
+
+SQL> ---------------
+SQL> -- Task 2.7. --
+SQL> ---------------
+SQL> SELECT DISTINCT EMPLOYEE.E#, EMPLOYEE.NAME FROM EMPLOYEE JOIN WORKSON ON EMPLOYEE.E# = WORKSON.E#
+  WHERE (SELECT PROJECT.BUDGET FROM PROJECT WHERE PROJECT.P# = WORKSON.P#) > 200000;
+
+E#    NAME                         
+----- ------------------------------
+00105 Robert                        
+
+SQL> ---------------
+SQL> -- Task 2.8. --
+SQL> ---------------
+SQL> SELECT PROJECT.SPONSOR, SUM(PROJECT.BUDGET) AS "Total Budgets" FROM PROJECT GROUP BY PROJECT.SPONSOR;
+
+SPONSOR                                                  Total Budgets
+------------------------------ ---------------------------------------
+Microsoft                                                        25000
+Education committee                                             140000
+Cloud Pty Ltd                                                   225000
+Football club                                                    35000
+My Sponsor                                                       25000
+
+SQL> ---------------
+SQL> -- Task 2.9. --
+SQL> ---------------
+SQL> SELECT UNIQUE EMPLOYEE.E#, EMPLOYEE.NAME FROM EMPLOYEE JOIN PROJECT
+ON EMPLOYEE.D# = PROJECT.D# WHERE PROJECT.SPONSOR = 'Education committee';
+
+E#    NAME                         
+----- ------------------------------
+00105 Robert                        
+00150 Bob                           
+00250 Douglass                      
+00187 Eadger                        
+
+SQL> ---------------
+SQL> -- Task 2.10. -
+SQL> ---------------
+SQL> SELECT CAST(AVG(MONTHS_BETWEEN(CURRENT_DATE, DOB))/12 AS INT) "Average Age of Employees" FROM EMPLOYEE;
+
+               Average Age of Employees
+---------------------------------------
+                                     36
+
+SQL> SPOOL OFF;
