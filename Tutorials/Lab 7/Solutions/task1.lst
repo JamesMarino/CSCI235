@@ -1,0 +1,81 @@
+SQL> SET ECHO ON;
+SQL> SET FEEDBACK ON;
+SQL> SET LINESIZE 100;
+SQL> SET PAGESIZE 100;
+SQL> SET SERVEROUTPUT ON;
+SQL> 
+SQL> CREATE OR REPLACE PROCEDURE LISTSKILL
+  2  IS
+  3    appNumber APPLICANT.ANUMBER%TYPE;
+  4    firstName APPLICANT.FNAME%TYPE;
+  5    lastName APPLICANT.LNAME%TYPE;
+  6    skillName SPOSSESSED.SNAME%TYPE;
+  7    skillLevel SPOSSESSED.SLEVEL%TYPE;
+  8    CURSOR Q1 IS
+  9  	 SELECT ANUMBER, FNAME, LNAME FROM APPLICANT;
+ 10    CURSOR Q2 IS
+ 11  	 SELECT SNAME, SLEVEL FROM SPOSSESSED WHERE ANUMBER = appNumber ORDER BY SLEVEL DESC;
+ 12  
+ 13    counter NUMBER;
+ 14    finalRow VARCHAR2(256);
+ 15    finalInnerRow VARCHAR2(256);
+ 16  BEGIN
+ 17  
+ 18    counter := 0;
+ 19  
+ 20    OPEN Q1;
+ 21    LOOP
+ 22  	 FETCH Q1 INTO appNumber, firstName, lastName;
+ 23  	 IF Q1%NOTFOUND THEN EXIT; END IF;
+ 24  
+ 25  	 OPEN Q2;
+ 26  	 LOOP
+ 27  	   FETCH Q2 INTO skillName, skillLevel;
+ 28  	   IF Q2%NOTFOUND THEN EXIT; END IF;
+ 29  
+ 30  	   counter := counter + 1;
+ 31  	   finalInnerRow := finalInnerRow || (UPPER(skillName) || ':' || skillLevel || ', ');
+ 32  
+ 33  	 END LOOP;
+ 34  	 CLOSE Q2;
+ 35  
+ 36  	 DBMS_OUTPUT.PUT_LINE(counter || ' ' || UPPER(firstName) || ' ' || UPPER(lastName) || ': ' || finalInnerRow);
+ 37  
+ 38  	 counter := 0;
+ 39  	 finalInnerRow := '';
+ 40  
+ 41    END LOOP;
+ 42    CLOSE Q1;
+ 43  END LISTSKILL;
+ 44  /
+
+Procedure created.
+
+SQL> 
+SQL> EXECUTE LISTSKILL;
+3 HARRY POTTER: JAVA PROGRAMMING:9, COOKING:9, C PROGRAMMING:4,                                     
+2 JOHNNY WALKER: DRIVING:9, JAVA PROGRAMMING:9,                                                     
+3 MARY POPPINS: C++ PROGRAMMING:10, JAVA PROGRAMMING:9, PAINTING:5,                                 
+0 MICHAEL COLLINS:                                                                                  
+1 MARGARET FINCH: SQL PROGRAMMING:6,                                                                
+1 CLAUDIA KOWALEWSKI: SQL PROGRAMMING:8,                                                            
+2 JAMES BOND: COOKING:10, SQL PROGRAMMING:9,                                                        
+2 STEPHEN STAUNTON: COOKING:9, SQL PROGRAMMING:3,                                                   
+0 JOSEPH STAUNTON:                                                                                  
+4 JOHN SPIDERMAN: DATABASE DESIGN:10, SQL PROGRAMMING:10, PAINTING:9, COOKING:1,                    
+2 GEORGE THEFIRST: NETWORK ADMINISTRATION:10, C PROGRAMMING:5,                                      
+3 HOMER SIMPSON: JAVA PROGRAMMING:9, DRIVING:3, COOKING:1,                                          
+2 NEIL SUPERMAN: NETWORK ADMINISTRATION:7, DATABASE ADMINISTRATION:6,                               
+1 IVAN THETERRIBLE: PAINTING:5,                                                                     
+1 PENELOPE PRINCESS: DATABASE ADMINISTRATION:4,                                                     
+1 ZHI CHAO ZHONG: SQL PROGRAMMING:4,                                                                
+2 RICHARD THELIONHEART: COOKING:9, DATABASE ADMINISTRATION:7,                                       
+4 SHERLOCK HOLMES: DATABASE DESIGN:9, BRICKLAYING:6, NETWORK ADMINISTRATION:5, DATABASE             
+ADMINISTRATION:3,                                                                                   
+1 ROBIN HOOD: DATABASE ADMINISTRATION:8,                                                            
+1 JANUSZ GETTA: SQL PROGRAMMING:10,                                                                 
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> SPOOL OFF;
