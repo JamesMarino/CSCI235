@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE book SYSTEM "task3-2.dtd">
+<book>
+  <isbn>007</isbn>
+  <title>Database Performance Tuning</title>
+  <author>
+    <last-name>Millsap</last-name>
+    <initials>C</initials>
+  </author>
+  <author>
+    <last-name>Burleson</last-name>
+    <initials>D</initials>
+  </author>
+  <chapters>
+    <chapter>
+      <number>1</number>
+      <title>Introduction</title>
+    </chapter>
+    <chapter>
+      <number>2</number>
+      <title>Tuning Database Server</title>
+    </chapter>
+    <chapter>
+      <number>3</number>
+      <title>Tuning Query Processing</title>
+    </chapter>
+    <chapter>
+      <number>4</number>
+      <title>Tuning Data Manipulations</title>
+    </chapter>
+  </chapters>
+  <publisher>Oracle Press</publisher>
+  <keywords>
+    <keyword>database</keyword>
+    <keyword>performance</keyword>
+  </keywords>
+</book>

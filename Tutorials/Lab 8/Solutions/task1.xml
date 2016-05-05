@@ -1,0 +1,59 @@
+<university>
+
+	<campus>
+		<cname>Some CNAME</cname>
+		<city>Wollongong</city>
+		<street>Some Street</street>
+			<building bldg-num="5">
+				<bldg-name>Lecture Room</bldg-name>
+				<room room-num="12">
+					<type>Some Type 1</type>
+					<area>Area 52</area>
+				</room>
+				<room room-num="17">
+					<type>Some Type 2</type>
+					<area>Area 16</area>
+				</room>
+			</building>
+			<building bldg-num="48">
+				<bldg-name>Tutorial Room</bldg-name>
+				<room room-num="2">
+					<type>Some Type 3</type>
+					<area>Area 12</area>
+				</room>
+				<room room-num="17">
+					<type>Some Type 4</type>
+					<area>Area 12</area>
+				</room>
+			</building>
+	</campus>
+
+	<campus>
+		<cname>Some CNAME 2</cname>
+		<city>Bulli</city>
+		<street>Bulli Street</street>
+			<building bldg-num="10">
+				<bldg-name>Lab Room</bldg-name>
+				<room room-num="23">
+					<type>Some Type 5</type>
+					<area>Area 182</area>
+				</room>
+				<room room-num="17">
+					<type>Some Type 6</type>
+					<area>Area 163</area>
+				</room>
+			</building>
+			<building bldg-num="48">
+				<bldg-name>Lecture Room</bldg-name>
+				<room room-num="2">
+					<type>Some Type 7</type>
+					<area>Area 122</area>
+				</room>
+				<room room-num="173">
+					<type>Some Type 8</type>
+					<area>Area 183</area>
+				</room>
+			</building>
+	</campus>
+
+</university>

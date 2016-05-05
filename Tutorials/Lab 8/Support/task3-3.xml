@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE department SYSTEM "task3-3.dtd">
+<department>
+  <name>sales</name>
+  <chairman>John Doe</chairman>
+  <budget>10K</budget>
+  <buildings>
+    <building>3</building>
+    <building>39</building>
+    <building>150</building>
+  </buildings>
+  <has-employees>
+    <employee>
+      <enum>1234</enum>
+      <first-name>John</first-name>
+      <last-name>Doe</last-name>
+      <salary>100K</salary>
+    </employee>
+    <employee>
+      <enum>1235</enum>
+      <first-name>Henry</first-name>
+      <last-name>Eight</last-name>
+      <salary>30K</salary>
+    </employee>
+    <employee>
+      <enum>1236</enum>
+      <first-name>Jack</first-name>
+      <last-name>Long</last-name>
+      <salary>50K</salary>
+    </employee>
+  </has-employees>
+</department>

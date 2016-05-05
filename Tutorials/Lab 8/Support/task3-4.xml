@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE expression SYSTEM "task3-4.dtd" >
+<expression>
+  <left-bracket>(</left-bracket>
+  <expression>
+    <left-bracket>(</left-bracket>
+    <expression>
+      <number>24</number>
+      <operation>+</operation>
+      <number>24</number> 
+    </expression>
+    <right-bracket>)</right-bracket>
+    <operation>*</operation>
+    <number>5</number>
+  </expression>
+  <right-bracket>)</right-bracket>
+  <operation>-</operation>
+  <number>6</number>
+</expression>

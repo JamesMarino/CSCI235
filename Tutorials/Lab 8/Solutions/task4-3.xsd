@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="contacts" type="contactsType"/>
+  <xs:complexType name="contactsType">
+    <xs:sequence>
+      <xs:element name="department" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Sales"/>
+            <xs:enumeration value="Employee Relation"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="email"/>
+      <xs:element type="xs:string" name="phone"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE employee SYSTEM "task3-1.dtd">
+<employee>
+  <enum>007</enum>
+  <fname>James</fname>
+  <lname>Bond</lname>
+  <progskills>
+    <planguage>C++</planguage>
+    <planguage>Java</planguage>
+    <planguage>SQL</planguage>
+  </progskills>
+</employee>

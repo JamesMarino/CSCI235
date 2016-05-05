@@ -1,0 +1,12 @@
+<!ELEMENT book (isbn|title|author|chapters|publisher|keywords)*>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (last-name|initials)*>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT initials (#PCDATA)>
+<!ELEMENT chapters (chapter)*>
+<!ELEMENT chapter (number|title)*>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT keywords (keyword)*>
+<!ELEMENT keyword (#PCDATA)>

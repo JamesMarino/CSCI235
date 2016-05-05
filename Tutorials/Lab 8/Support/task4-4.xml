@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<items>
+  <item>
+    <name>yellow bolt</name>
+    <price>24</price>
+  </item>
+  <item>
+    <name>green bolt</name>
+    <price>25</price>
+  </item>
+  <item>
+    <name>white nut</name>
+    <price>five</price>
+  </item>
+  <item>
+    <name>green nut</name>
+    <price>eleven</price>
+  </item>
+</items>
