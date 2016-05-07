@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE companies SYSTEM "task5.dtd">
+<companies>
+	<company>
+		<division>
+			<division-name>Tom Clancys Division</division-name>
+			<country>Australia</country>
+			<address>
+				<city>Bulli</city>
+				<street>21 Farrell Road</street>
+				<buildingno>12</buildingno>
+				<phoneno>04563728374</phoneno>
+				<faxno>02736849374</faxno>
+			</address>
+			<branch>
+				<name>
+					<first>Daniel</first>
+					<initials>DW</initials>
+					<last>West</last>
+				</name>
+				<department>
+					<department-name>IT</department-name>
+					<budget>69.420</budget>
+					<name>
+						<first>Liam</first>
+						<initials>LF</initials>
+						<last>Frappell</last>
+					</name>
+					<employee>
+						<position>ScrubLord</position>
+						<name>
+							<first>Asjad</first>
+							<initials>M</initials>
+							<last>Frappell</last>
+						</name>
+					</employee>
+				</department>
+			</branch>
+		</division>
+	</company>
+	<company>
+		<division>
+			<division-name>Some Division</division-name>
+			<country>Australia</country>
+			<address>
+				<city>Campus East</city>
+				<street>Fairy Meadow</street>
+				<buildingno>1223</buildingno>
+			</address>
+			<branch>
+				<name>
+					<first>Mark</first>
+					<last>Zuckerburg</last>
+				</name>
+				<department>
+					<department-name>Faceboook</department-name>
+					<budget>420.00</budget>
+					<name>
+						<first>Chris</first>
+						<initials>J</initials>
+						<last>Southcott</last>
+					</name>
+					<employee>
+						<position>UltraScrubLord</position>
+						<name>
+							<first>Aiden</first>
+							<initials>F</initials>
+							<last>Frappell</last>
+						</name>
+					</employee>
+				</department>
+			</branch>
+		</division>
+	</company>
+</companies>

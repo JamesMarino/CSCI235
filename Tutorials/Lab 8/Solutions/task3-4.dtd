@@ -1,4 +1,4 @@
-<!ELEMENT expression (left-bracket|expression|number|operation|right-bracket)*>
+<!ELEMENT expression ((number, operation, number) | (left-bracket, expression, right-bracket, operation, number))>
 <!ELEMENT left-bracket (#PCDATA)>
 <!ELEMENT number (#PCDATA)>
 <!ELEMENT operation (#PCDATA)>

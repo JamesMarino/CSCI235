@@ -1,0 +1,44 @@
+SQL> SET LINESIZE 300
+SQL> /*
+ * Task 3
+ */
+SQL> CREATE USER SCOTT IDENTIFIED BY PASSWORD;
+
+Error starting at line : 10 in command -
+CREATE USER SCOTT IDENTIFIED BY PASSWORD
+Error report -
+SQL Error: ORA-01920: user name 'SCOTT' conflicts with another user or role name
+01920. 00000 -  "user name '%s' conflicts with another user or role name"
+*Cause:    There is already a user or role with that name.
+*Action:   Specify a different user name.
+SQL> -- Question 3.1 
+SQL> GRANT SELECT, INSERT, UPDATE ON TEACHES TO SCOTT;
+
+Grant succeeded.
+
+SQL> -- Question 3.2
+SQL> GRANT CREATE TABLE TO SCOTT;
+
+Grant succeeded.
+
+SQL> GRANT REFERENCES (CODE) ON RUNNINGSUBJECT TO SCOTT;
+
+Grant succeeded.
+
+SQL> -- Question 3.3
+SQL> CREATE OR REPLACE VIEW VIEW_3_3 AS
+  SELECT * FROM ACADEMIC WHERE ACADEMIC.STAFF# IN (
+    SELECT LECTURER FROM TEACHES WHERE CODE IN (
+      'CSCI235',
+      'CSCI204',
+      'CSCI124'
+    )
+  );
+
+View VIEW_3_3 created.
+
+SQL> GRANT SELECT ON VIEW_3_3 TO SCOTT;
+
+Grant succeeded.
+
+SQL> SPOOL OFF;
