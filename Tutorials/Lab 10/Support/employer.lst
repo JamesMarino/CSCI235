@@ -1,0 +1,51 @@
+SQL> SET ECHO OFF
+SQL> SET LINESIZE 200
+SQL> SET WRAP OFF
+SQL> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+SQL> /* EMPLOYER								*/
+SQL> /*									*/
+SQL> COLUMN ename		FORMAT A35		HEADING "Employer name"
+SQL> COLUMN city            	FORMAT A10		HEADING "City"
+SQL> COLUMN state           	FORMAT A20		HEADING	"State"
+SQL> COLUMN phone            FORMAT 9999999999	HEADING "Phone"
+SQL> COLUMN fax              FORMAT 9999999999	HEADING "Fax"
+SQL> COLUMN email         	FORMAT A20		HEADING "Email|address"
+SQL> COLUMN web             	FORMAT A20		HEADING "Web|address"
+SQL> SELECT	ename,
+	city,
+	state,
+	phone,
+	fax,
+	email,
+	web
+FROM EMPLOYER
+ORDER BY ename ASC;
+
+                                                                                            Email                Web                
+Employer name                       City       State                      Phone         Fax address              address            
+----------------------------------- ---------- -------------------- ----------- ----------- -------------------- --------------------
+Curtin University                   Perth      Western Australia     6182222567             main@curtin.edu.au   www.uoa.edu.au      
+La Trobe University                 Melbourne  Victoria              6136677899                                  www.latrobe.edu.au  
+Macquarie University                Sydney     New South Wales       6125646346             main@mcq.edu.au      www.mcq.edu.au      
+Monash University                   Melbourne  Victoria              6134567932             admin@monash.edu.au  www.monash.edu.au   
+Murdoch University                  Perth      Western Australia     6182234588             admin@murdoch.edu.au www.murdoch.edu.au  
+RMIT                                Melbourne  Victoria              6135050607                                  www.rmit.edu.au     
+University of Adelaide              Adelaide   South Australia       6172222567  6172341278 main@uoa.edu.au      www.uoa.edu.au      
+University of Melbourne             Melbourne  Victoria              6131234567  6132345678 admin@uom.edu.au     www.uom.edu.au      
+University of New South Wales       Sydney     New South Wales       6129874574  6123454445 adm@unsw.edu.au      www.unsw.edu.au     
+University of Queensland            Brisbane   Queeensland            615333445  6154465678 admin@uq.edu.au      www.uq.edu.au       
+
+                                                                                            Email                Web                
+Employer name                       City       State                      Phone         Fax address              address            
+----------------------------------- ---------- -------------------- ----------- ----------- -------------------- --------------------
+University of Sydney                Sydney     New South Wales        612345678             admin@uos.edu        www.uos.edu.au      
+University of Technology, Sydney    Sydney     New South Wales       6125646872             postmaster@uts.edu.a www.uts.edu.au      
+University of Western Australia     Perth      Western Australia     6189876543  6133341278 main@uowa.edu.au     www.uowa.edu.au     
+University of Western Sydney        Western Sy New South Wales        612345678             muws@uws.edu.au      www.uws.edu.au      
+University of Wollongong            Wollongong New South Wales       6124243689  6124234569 admin@uow.edu.au     www.uow.edu.au      
+
+ 15 rows selected 
+
+SQL> PROMPT Done.
+Done.
+SQL> SPOOL OFF

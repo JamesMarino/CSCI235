@@ -1,0 +1,24 @@
+SQL> SET ECHO OFF
+SQL> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+SQL> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Title:          Sample database
+   Script name:    dbdrop.sql
+   Task:           To drop a sample database
+   Created by:	   Janusz R. Getta     
+   Created on:	   23 October 2011
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+SQL> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+SQL> SET ECHO ON
+SQL> SET LINESIZE 200
+SQL> SET WRAP OFF
+SQL> DROP TABLE POSITION PURGE;
+
+Table POSITION dropped.
+
+SQL> DROP TABLE EMPLOYER PURGE;
+
+Table EMPLOYER dropped.
+
+SQL> PROMPT Done.
+Done.
+SQL> spool off

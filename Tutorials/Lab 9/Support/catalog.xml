@@ -1,0 +1,116 @@
+<catalog>
+   <book id="bk103">
+      <author>
+      	<first>Corets</first>
+      	<last>Eva</last>
+      </author>
+      <title>Maeve Ascendant</title>
+      <genre>Fantasy</genre>
+      <price currency="AU$">5.95</price>
+      <publisher>Apress</publisher>
+      <publish_date>2000-11-17</publish_date>
+      <description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</description>
+      <keywords/>
+   </book>
+   <book id="bk104">
+      <author>
+      	<last>Corets</last>
+      	<first>Eva</first>
+      </author>
+      <title>Oberons Legacy</title>
+      <genre>Fantasy</genre>
+      <price currency="AU$">6.95</price>
+      <publisher>Apress</publisher>
+      <publish_date>2001-03-10</publish_date>
+      <description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</description>
+      <keywords>
+      	<keyword>post-apocalypse</keyword>
+      </keywords>
+   </book>
+   <book id="bk105">
+      <author>
+      	<last>Corets</last>
+      	<first>Eva</first>
+      </author>
+      <title>The Sundered Grail</title>
+      <genre>Fantasy</genre>
+      <price>15.95</price>
+      <publisher>Morgan Kaufman</publisher>
+      <publish_date>2001-09-10</publish_date>
+      <description>The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberons Legacy.</description>
+      <keywords/>
+   </book>
+   <book id="bk106">
+      <author>
+      	<last>Randall</last>
+      	<first>Cynthia</first>
+      </author>
+      <title>Lover Birds</title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+      <publisher>Wiley</publisher>
+      <publish_date>2000-09-02</publish_date>
+      <description>When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.</description>
+      <keywords/>
+   </book>
+   <book id="bk110">
+      <author>
+      	<last>OBrien</last>
+      	<first>Tim</first>
+      </author>
+      <title>Microsoft .NET: The Programming Bible</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>Microsoft Press</publisher>
+      <publish_date>2000-12-09</publish_date>
+      <description>Microsofts .NET initiative is explored in 
+      detail in this deep programmers reference.</description>
+      <keywords>
+      	<keyword>.NET</keyword>
+      </keywords>
+   </book>
+   <book id="bk111">
+      <author>
+      	<first>Tim</first>
+      	<last>OBrien</last>
+      </author>
+      <title>MSXML3: A Comprehensive Guide</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>Microsoft Press</publisher>
+      <publish_date>2000-12-01</publish_date>
+      <description>The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.</description>
+      <keywords/>
+   </book>
+   <book id="bk113">
+      <author>
+      	<first>James</first>
+      	<last>Bond</last>
+      </author>
+      <author>
+      	<first>Harry</first>
+      	<last>Potter</last>
+      </author>
+      <title>Java for managers</title>
+      <genre>Computer</genre>
+      <price>499.99</price>
+      <publish_date>2009-01-16</publish_date>
+      <description language="en">Programming in Java is explained in so simple way that
+      even managers can find out what is going on.</description>
+      <keywords>
+      	<keyword>class</keyword>
+      	<keyword>Java</keyword>
+      	<keyword>object-oriented programming</keyword>
+      </keywords>
+   </book>
+</catalog>

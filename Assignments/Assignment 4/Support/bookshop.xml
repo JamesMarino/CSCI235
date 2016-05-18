@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<bookshop>
+	<product ID="185.3.16">
+		<price currency="AU$">56.85</price>
+		<comments>Best sell</comments>
+	</product>
+	<product ID="163.24.12">
+		<price currency="NZ$">28.6</price>
+		<comments />
+	</product>
+	<product ID="123.45.67">
+		<price currency="AU$">15.50</price>
+		<comments>I love it</comments>
+	</product>
+	<product ID="134.41.33">
+		<price currency="AU$">25.50</price>
+		<comments></comments>
+	</product>
+	<product ID="214.56.82">
+		<price currency="US$">35.65</price>
+		<comments>Good</comments>
+	</product>
+	<product ID="263.18.37">
+		<price currency="AU$">46.35</price>
+		<comments>You should see this</comments>
+	</product>
+	<product ID="285.32.74">
+		<price currency="US$">38.95</price>
+		<comments></comments>
+	</product>
+	<product ID="321.12.76">
+		<price currency="US$">15.95</price>
+		<comments>Popular</comments>
+	</product>
+	<product ID="342.22.42">
+		<price currency="US$">10.95</price>
+		<comments>Sweet</comments>
+	</product>
+	<product ID="332.17.25">
+		<price currency="US$">19.95</price>
+		<comments></comments>
+	</product>
+	<book IDREF="185.3.16">
+		<isbn>1-292-06118-9</isbn>
+		<title>Database Systems</title>
+		<authors>
+			<author>
+				<fname>Thomas</fname>
+				<lname>Connolly</lname>
+			</author>
+			<author>
+				<fname>Carolyn</fname>
+				<lname>Begg</lname>
+			</author>
+		</authors>
+		<publisher>Pearson Pty Ltd</publisher>
+		<year>2015</year>
+		<topic>Computer Science</topic>
+		<description>This is the 6th edition. You can register online to access the examples</description>
+		<keywords>
+			<keyword>Database</keyword>
+			<keyword>XML</keyword>
+			<keyword>Distributed</keyword>
+		</keywords>
+	</book>
+	<book IDREF="163.24.12">
+		<isbn>1-123-456-810</isbn>
+		<title>Core Java</title>
+		<authors>
+			<author>
+				<fname>Horstmann</fname>
+				<lname>Cornell</lname>
+			</author>
+		</authors>
+		<publisher>PH Pty Ltd</publisher>
+		<year>2012</year>
+		<topic>Computer Science</topic>
+		<description>It covers JAVA programming and JAVA script</description>
+		<keywords>
+			<keyword>JAVA</keyword>
+			<keyword>XML</keyword>
+			<keyword>Script</keyword>
+		</keywords>
+	</book>
+	<book IDREF="123.45.67">
+		<isbn>1-123-456-789</isbn>
+		<title>Algorithms</title>
+		<authors>
+			<author>
+				<fname>James</fname>
+				<lname>Bond</lname>
+			</author>
+			<author>
+				<fname>Harry</fname>
+				<lname>Potter</lname>
+			</author>
+			<author>
+				<fname>William</fname>
+				<lname>Stallings</lname>
+			</author>
+		</authors>
+		<publisher>Pearson Pty Ltd</publisher>
+		<year>2013</year>
+		<topic>Computer Science</topic>
+		<description>It contains algorithms and their applications. You can download examples from the website</description>
+	</book>
+	<book IDREF="134.41.33">
+		<isbn>1-213-431-770</isbn>
+		<title>C++ Programming</title>
+		<authors>
+			<author>
+				<fname>Larry</fname>
+				<lname>Peterson</lname>
+			</author>
+		</authors>
+		<publisher>Pearson Pty Ltd</publisher>
+		<year>2010</year>
+		<topic>Computer Science</topic>
+		<description>C++ programming and its applications</description>
+		<keywords>
+			<keyword>C++</keyword>
+			<keyword>Class</keyword>
+			<keyword>Overloading</keyword>
+			<keyword>Inheritance</keyword>
+		</keywords>
+	</book>
+	<journal IDREF="214.56.82">
+		<issn>S-11-123-123-456</issn>
+		<title>Handyman</title>
+		<volume>12</volume>
+		<issue>23</issue>
+	</journal>
+	<journal IDREF="214.56.82">
+		<issn>S-11-123-123-456</issn>
+		<title>Handyman</title>
+		<volume>12</volume>
+		<issue>24</issue>
+	</journal>
+	<journal IDREF="214.56.82">
+		<issn>S-11-123-123-456</issn>
+		<title>Handyman</title>
+		<volume>12</volume>
+		<issue>25</issue>
+	</journal>
+	<journal IDREF="263.18.37">
+		<issn>D-10-123-124-456</issn>
+		<title>Information processing</title>
+		<volume>5</volume>
+		<issue>33</issue>
+	</journal>
+	<journal IDREF="263.18.37">
+		<issn>D-10-123-124-456</issn>
+		<title>Information processing</title>
+		<volume>5</volume>
+		<issue>34</issue>
+	</journal>
+	<journal IDREF="285.32.74">
+		<issn>C-9-123-456-666</issn>
+		<title>Mathmetics and Computing</title>
+		<volume>17</volume>
+		<issue>65</issue>
+	</journal>
+	<journal IDREF="285.32.74">
+		<issn>C-9-123-456-666</issn>
+		<title>Mathmetics and Computing</title>
+		<volume>17</volume>
+		<issue>66</issue>
+	</journal>
+	<musicCD IDREF="321.12.76">
+		<title>Music</title>
+		<producer>ABC Pty Ltd</producer>
+		<year>2010</year>
+		<category>Pop</category>
+	</musicCD>
+	<musicCD IDREF="342.22.42">
+		<title>Stars</title>
+		<producer>BBC Pty Ltd</producer>
+		<year>2012</year>
+		<category>Classic</category>
+	</musicCD>
+	<musicCD IDREF="332.17.25">
+		<title>Wiggle Wiggle</title>
+		<producer>Wiggle Pty Ltd</producer>
+		<year>2005</year>
+		<category>Kids</category>
+	</musicCD>
+</bookshop>

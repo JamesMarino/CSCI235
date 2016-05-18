@@ -1,0 +1,170 @@
+SQL> SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+Transaction ISOLATION succeeded.
+
+SQL> SET SERVEROUTPUT ON
+SQL> BEGIN
+
+  UPDATE POSITION SET POSITION.EXTRAS = POSITION.EXTRAS || ', computer'
+    WHERE POSITION.EXTRAS LIKE '%mouse pad%';
+
+  UPDATE POSITION SET POSITION.EXTRAS = POSITION.EXTRAS || ', Rolls Royce'
+    WHERE POSITION.ENAME = 'University of New South Wales';
+    
+  COMMIT;
+
+END;
+/
+BEGIN
+*
+ERROR at line 1:
+ORA-00060: deadlock detected while waiting for resource 
+ORA-06512: at line 6
+
+PL/SQL procedure successfully completed.
+
+SQL> SELECT * FROM POSITION;
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         1 lecturer                            45000 
+computer, Rolls Royce                                       0 
+teaching                                                                        
+University of New South Wales                                                   
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         2 lecturer                           450000 
+mouse pad, computer                                    525000 
+research                                                                        
+University of Wollongong                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         3 senior lecturer                     50000 
+a lot of red markers                                        0 
+a lot of hard work                                                              
+University of Technology, Sydney                                                
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         4 associate professor                200000 
+silver pen                                                  0 
+teaching                                                                        
+University of Wollongong                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         5 professor                          200000 
+chair                                                       0 
+research                                                                        
+University of Queensland                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         6 professor                          100000 
+chair and desk, Rolls Royce                                 0 
+research                                                                        
+University of New South Wales                                                   
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         7 professor                          800000 
+chair                                                       0 
+teaching and research                                                           
+University of Wollongong                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         8 senior lecturer                     45000 
+computer                                               105000 
+teaching                                                                        
+University of Wollongong                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+         9 lecturer                           450000 
+mouse pad, computer                                    525000 
+research                                                                        
+University of Wollongong                                                        
+
+
+   PNUMBER TITLE                              SALARY
+---------- ------------------------------ ----------
+EXTRAS                                                  BONUS
+-------------------------------------------------- ----------
+SPECIFICATION
+--------------------------------------------------------------------------------
+ENAME                                                                          
+--------------------------------------------------------------------------------
+        10 associate professor                 50000 
+a lot of red markers                                        0 
+a lot of hard work                                                              
+University of Technology, Sydney                                                
+
+
+ 10 rows selected 
+
+SQL> SPOOL OFF;

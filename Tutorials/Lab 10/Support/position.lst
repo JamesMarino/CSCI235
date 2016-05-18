@@ -1,0 +1,42 @@
+SQL> SET ECHO OFF
+SQL> SET LINESIZE 200
+SQL> SET WRAP OFF
+SQL> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+SQL> /* POSITION								*/
+SQL> /*									*/
+SQL> COLUMN pnumber		FORMAT 99999999 	HEADING "Position|number"
+SQL> COLUMN title           	FORMAT A20		HEADING "Title"
+SQL> COLUMN salary		FORMAT 999999.99	HEADING "Salary"
+SQL> COLUMN extras		FORMAT A20		HEADING "Extras"
+SQL> COLUMN bonus		FORMAT 999999.99	HEADING "End of year|bonus"
+SQL> COLUMN specification   	FORMAT A30		HEADING "Specification"
+SQL> COLUMN ename		FORMAT A30		HEADING "Employer name"
+SQL> SELECT	pnumber,
+	title,
+	salary,
+	extras,
+	bonus,
+	specification,
+	ename
+FROM POSITION
+ORDER BY pnumber ASC;
+
+       Position                                                            End of year                                                             
+         number Title                    Salary Extras                           bonus Specification                  Employer name                
+--------------- -------------------- ---------- -------------------- ----------------- ------------------------------ ------------------------------
+              1 lecturer               45000.00 computer                               teaching                       University of New South Wales 
+              2 lecturer              450000.00 mouse pad                    500000.00 research                       University of Wollongong      
+              3 senior lecturer        50000.00 a lot of red markers                   a lot of hard work             University of Technology, Sydn
+              4 associate professor   200000.00 silver pen                             teaching                       University of Wollongong      
+              5 professor             200000.00 chair                                  research                       University of Queensland      
+              6 professor             100000.00 chair and desk                         research                       University of New South Wales 
+              7 professor             800000.00 chair                                  teaching and research          University of Wollongong      
+              8 senior lecturer        45000.00 computer                     100000.00 teaching                       University of Wollongong      
+              9 lecturer              450000.00 mouse pad                    500000.00 research                       University of Wollongong      
+             10 associate professor    50000.00 a lot of red markers                   a lot of hard work             University of Technology, Sydn
+
+ 10 rows selected 
+
+SQL> PROMPT Done.
+Done.
+SQL> SPOOL OFF
