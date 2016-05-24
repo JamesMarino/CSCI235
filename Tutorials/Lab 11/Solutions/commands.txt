@@ -1,0 +1,15 @@
+Commands:
+
+// Must CD
+cd /Applications/KVLite/kv-3.5.2
+
+Start Server:
+java -jar lib/kvstore.jar kvlite
+
+Compile Java
+javac -cp lib/kvclient.jar ~/Desktop/solutions/FindTeam.java
+javac -cp lib/kvclient.jar ~/Desktop/solutions/LoadDB.java
+
+run java
+java -cp ~/Desktop/solutions:lib/kvclient.jar LoadDB
+java -cp ~/Desktop/solutions:lib/kvclient.jar FindTeam
