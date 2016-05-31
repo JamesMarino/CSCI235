@@ -6,9 +6,11 @@ import oracle.kv.Value;
 import oracle.kv.ValueVersion;
 import java.util.ArrayList;
 
-class LoadDB {
+class LoadRecords
+{
 
-	public static void main(String args[]) {
+	public static void main(String args[])
+	{
 		try
 		{
 
@@ -27,38 +29,87 @@ class LoadDB {
 			store = KVStoreFactory.getStore(new KVStoreConfig("kvstore", "localhost" + ":" + "5000"));
 			System.out.println("Store " + storeName + " at " + hostName + ":" + hostPort + " opened.");
 
-			majorList.add("James");
-			majorList.add("Marino");
-			majorList.add("1995");
-			minorList.add("nationality");
-			valueString = "Australian";
+			// Firsrt Name
+			majorList.add("Liam");
+			// Last Name
+			majorList.add("Frappell");
+			// DOB
+			majorList.add("07012012");
+			// Teamname
+			minorList.add("My Team");
+			// City
+			minorList.add("Wollongong");
+			// Nationality
+			minorList.add("Chinese");
+			// Value
+			valueString = "Nat:Chinese;Country:Australia;WhenTras:17/10/2007";
 			key = Key.createKey(majorList, minorList);
 			value = Value.createValue(valueString.getBytes());
 			store.put(key, value);
 			majorList.clear();
 			minorList.clear();
 
+
+			// Firsrt Name
 			majorList.add("Chris");
-			majorList.add("Southcott");
-			majorList.add("1994");
-			minorList.add("nationality");
-			valueString = "Chinese";
+			// Last Name
+			majorList.add("Soutchott");
+			// DOB
+			majorList.add("09012012");
+			// Teamname
+			minorList.add("My Team");
+			// City
+			minorList.add("Wollongong");
+			// Nationality
+			minorList.add("Chinese");
+			// Value
+			valueString = "Nat:Chinese;Country:Australia;WhenTras:17/10/2007";
 			key = Key.createKey(majorList, minorList);
 			value = Value.createValue(valueString.getBytes());
 			store.put(key, value);
 			majorList.clear();
 			minorList.clear();
 
-			majorList.add("Dave");
-			majorList.add("Barranquero");
-			majorList.add("1990");
-			minorList.add("nationality");
-			valueString = "Sri Lanka";
+						// Firsrt Name
+			majorList.add("Bob");
+			// Last Name
+			majorList.add("Liam");
+			// DOB
+			majorList.add("07012012");
+			// Teamname
+			minorList.add("My Team");
+			// City
+			minorList.add("Wollongong");
+			// Nationality
+			minorList.add("Chinese");
+			// Value
+			valueString = "Nat:Chinese;Country:Australia;WhenTras:17/10/2007";
 			key = Key.createKey(majorList, minorList);
 			value = Value.createValue(valueString.getBytes());
 			store.put(key, value);
 			majorList.clear();
 			minorList.clear();
+
+			// Firsrt Name
+			majorList.add("Dave");
+			// Last Name
+			majorList.add("Barranquero");
+			// DOB
+			majorList.add("07012012");
+			// Teamname
+			minorList.add("My Team");
+			// City
+			minorList.add("Wollongong");
+			// Nationality
+			minorList.add("Chinese");
+			// Value
+			valueString = "Nat:Chinese;Country:Australia;WhenTras:17/10/2007";
+			key = Key.createKey(majorList, minorList);
+			value = Value.createValue(valueString.getBytes());
+			store.put(key, value);
+			majorList.clear();
+			minorList.clear();
+
 
 			store.close();
 			System.out.println("Store " + storeName + " at " + hostName + ":" + hostPort + " closed.");
