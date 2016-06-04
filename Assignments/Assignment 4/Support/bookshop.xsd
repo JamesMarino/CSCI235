@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bookshop" type="bookshopType"/>
+  <xs:complexType name="keywordsType">
+    <xs:sequence>
+      <xs:element name="keyword" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Database"/>
+            <xs:enumeration value="XML"/>
+            <xs:enumeration value="Distributed"/>
+            <xs:enumeration value="JAVA"/>
+            <xs:enumeration value="Script"/>
+            <xs:enumeration value="C++"/>
+            <xs:enumeration value="Class"/>
+            <xs:enumeration value="Overloading"/>
+            <xs:enumeration value="Inheritance"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authorType">
+    <xs:sequence>
+      <xs:element name="fname">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Thomas"/>
+            <xs:enumeration value="Carolyn"/>
+            <xs:enumeration value="Horstmann"/>
+            <xs:enumeration value="James"/>
+            <xs:enumeration value="Harry"/>
+            <xs:enumeration value="William"/>
+            <xs:enumeration value="Larry"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="lname">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Connolly"/>
+            <xs:enumeration value="Begg"/>
+            <xs:enumeration value="Cornell"/>
+            <xs:enumeration value="Bond"/>
+            <xs:enumeration value="Potter"/>
+            <xs:enumeration value="Stallings"/>
+            <xs:enumeration value="Peterson"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="journalType">
+    <xs:sequence>
+      <xs:element name="issn">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="S-11-123-123-456"/>
+            <xs:enumeration value="D-10-123-124-456"/>
+            <xs:enumeration value="C-9-123-456-666"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="title">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Handyman"/>
+            <xs:enumeration value="Information processing"/>
+            <xs:enumeration value="Mathmetics and Computing"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="volume">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="12"/>
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="17"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="issue">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="23"/>
+            <xs:enumeration value="24"/>
+            <xs:enumeration value="25"/>
+            <xs:enumeration value="33"/>
+            <xs:enumeration value="34"/>
+            <xs:enumeration value="65"/>
+            <xs:enumeration value="66"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IDREF" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="authorsType">
+    <xs:sequence>
+      <xs:element type="authorType" name="author" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="priceType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="currency" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="bookshopType">
+    <xs:sequence>
+      <xs:element type="productType" name="product" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="bookType" name="book" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="journalType" name="journal" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="musicCDType" name="musicCD" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="isbn">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1-292-06118-9"/>
+            <xs:enumeration value="1-123-456-810"/>
+            <xs:enumeration value="1-123-456-789"/>
+            <xs:enumeration value="1-213-431-770"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="title">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Database Systems"/>
+            <xs:enumeration value="Core Java"/>
+            <xs:enumeration value="Algorithms"/>
+            <xs:enumeration value="C++ Programming"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="authorsType" name="authors"/>
+      <xs:element name="publisher">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pearson Pty Ltd"/>
+            <xs:enumeration value="PH Pty Ltd"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="year">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2015"/>
+            <xs:enumeration value="2012"/>
+            <xs:enumeration value="2013"/>
+            <xs:enumeration value="2010"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="topic"/>
+      <xs:element name="description">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="This is the 6th edition. You can register online to access the examples"/>
+            <xs:enumeration value="It covers JAVA programming and JAVA script"/>
+            <xs:enumeration value="It contains algorithms and their applications. You can download examples from the website"/>
+            <xs:enumeration value="C++ programming and its applications"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="keywordsType" name="keywords" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IDREF" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="musicCDType">
+    <xs:sequence>
+      <xs:element name="title">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Music"/>
+            <xs:enumeration value="Stars"/>
+            <xs:enumeration value="Wiggle Wiggle"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="producer">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="ABC Pty Ltd"/>
+            <xs:enumeration value="BBC Pty Ltd"/>
+            <xs:enumeration value="Wiggle Pty Ltd"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="year">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2010"/>
+            <xs:enumeration value="2012"/>
+            <xs:enumeration value="2005"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="category">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pop"/>
+            <xs:enumeration value="Classic"/>
+            <xs:enumeration value="Kids"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IDREF" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="productType">
+    <xs:sequence>
+      <xs:element type="priceType" name="price"/>
+      <xs:element name="comments">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Best sell"/>
+            <xs:enumeration value=""/>
+            <xs:enumeration value="I love it"/>
+            <xs:enumeration value="Good"/>
+            <xs:enumeration value="You should see this"/>
+            <xs:enumeration value="Popular"/>
+            <xs:enumeration value="Sweet"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="ID" use="optional"/>
+  </xs:complexType>
+</xs:schema>
